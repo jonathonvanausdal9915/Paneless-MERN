@@ -7,8 +7,9 @@ const Navbarr = () => {
   return (
     <>
    <nav className="navbar">
-    
+   <img src={logo} alt="placholder" className="logo" />
     <NavLink exact="true" activeclassname="active" to="/">
+ 
                 Home
             </NavLink>
             <NavLink exact="true" activeclassname="active"  className="about-link"  to="/about">
@@ -17,9 +18,6 @@ const Navbarr = () => {
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="featured-link" to="/featured">
                 Featured
-            </NavLink>
-            <NavLink exact="true" activeclassname="active" className="gallery-link" to="/project">
-                Gallery
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="quote-link" to="/resume">
                Request Quote
@@ -30,7 +28,7 @@ const Navbarr = () => {
             <NavLink exact="true" activeclassname="active" className="faq-link" to="/resume">
                FAQ
             </NavLink>
-         
+           
            
            
               <NavLink exact="true" activeclassname="active" className="login-link" to="/resume">
@@ -43,7 +41,7 @@ const Navbarr = () => {
            
           
    </nav>
-   <img src={logo} alt="placholder" className="logo" />
+
   
   </>
   );
