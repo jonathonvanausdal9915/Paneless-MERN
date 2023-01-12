@@ -5,6 +5,7 @@ import image2 from '../../assets/images/example.jpeg'
 import image3 from '../../assets/images/paneless1.jpeg'
 import image4 from '../../assets/images/paneless2.jpeg'
 import image5 from '../../assets/images/paneless3.jpeg'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
 const slides = [
     {image: image1 },
     {image: image2 },
@@ -13,8 +14,8 @@ const slides = [
     {image: image5 },
 ];
 const containerStyles = {
-    width: '500px',
-    height: '280px',
+    width: '650px',
+    height: '364px',
     margin: '0 auto',
 };
 const Home = () => {
