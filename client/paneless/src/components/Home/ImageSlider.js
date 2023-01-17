@@ -53,6 +53,8 @@ const goToNext = () => {
 
 
     return (
+        <>
+       
     <div style={sliderStyles}>
         <div style={leftArrowStyles} onClick={goToPrevious}>&#8592;</div>
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
@@ -64,6 +66,8 @@ const goToNext = () => {
             <p>See the World Through Clean Windows</p>
         </div>
     </div>
+    </>
     )
+
 }
 export default ImageSlider;

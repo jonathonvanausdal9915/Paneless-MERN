@@ -1,4 +1,4 @@
-import './index.scss';
+
 import ImageSlider from './ImageSlider';
 import image1 from '../../assets/images/aboutus.jpeg'
 import image2 from '../../assets/images/example.jpeg'
@@ -25,10 +25,10 @@ return (
    <div>
         <br />
         <br />
-       
+      
         <div style={containerStyles}>
         <ImageSlider slides={slides} />
-        
+        <div className="testing">here i am</div>
         </div>
     </div>
 

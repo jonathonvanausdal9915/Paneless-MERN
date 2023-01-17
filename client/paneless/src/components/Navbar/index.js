@@ -1,15 +1,37 @@
 import './index.scss'
 import {  NavLink } from 'react-router-dom'
 import logo from '../../assets/images/transparent.png'
-import { faHome, faInfoCircle, faUser, faUserPlus, faFire, faDollarSign, faHouseChimneyWindow, faQuestion} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faInfoCircle, faUser, faUserPlus, faFire,} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useState,  } from 'react';
 
 
 
 const Navbarr = () => {
+
+
+ const [navbar,setNavbar] = useState(false);
+
+
+
+
+
+
+ 
+ const changeBackground = () => {
+  if(window.scrollY >= 80) {
+    setNavbar(true)
+  } else {
+    setNavbar(false);
+  }
+  console.log(window.scrollY)
+ }
+window.addEventListener('scroll', changeBackground);
+
   return (
     <>
-   <nav className="navbar">
+  <nav className={navbar ? 'navbar active' : 'navbar'}>
+   <div className="navbar-container">
    <img src={logo} alt="placholder" className="logo" />
             <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#000000"/>
@@ -25,11 +47,11 @@ const Navbarr = () => {
                 Featured
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="quote-link" to="/quote">
-            <FontAwesomeIcon icon={faDollarSign} color="#000000"/>
+           
                Request Quote
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="window-link" to="/resume">
-            <FontAwesomeIcon icon={faHouseChimneyWindow} color="#000000"/>
+          
                Window Screens
             </NavLink>
           
@@ -46,8 +68,9 @@ const Navbarr = () => {
             </NavLink>
             
            
-          
+      </div>
    </nav>
+
 
   
   </>
