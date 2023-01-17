@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import logo from '../../assets/images/transparent.png'
+import './image.scss'
 const ImageSlider = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const sliderStyles = {
@@ -56,7 +57,11 @@ const goToNext = () => {
     <div style={sliderStyles}>
         <div style={leftArrowStyles} onClick={goToPrevious}>&#8592;</div>
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
+        <div className='logoBox'></div>
         <div style={slideStyles}></div>
+        <div className='textBox'>
+            <p>See the World Through Clean Windows</p>
+        </div>
     </div>
     )
 }

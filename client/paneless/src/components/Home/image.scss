@@ -1,0 +1,22 @@
+ .logoBox {
+    position: absolute;
+    top: -1%;
+    height:25vh;
+    width:25vw;
+    left:35%;
+    background-image: url('../../assets/images/transparent.png');
+    background-position: center;
+    background-size: cover;
+}
+.textBox {
+    position:absolute;
+    top:28%;
+    height:25vh;
+    width:35vw;
+    left:30%;
+    color:white;
+    text-align: center;
+    font-family:sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+}

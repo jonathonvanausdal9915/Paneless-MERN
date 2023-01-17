@@ -32,10 +32,7 @@ const Navbarr = () => {
             <FontAwesomeIcon icon={faHouseChimneyWindow} color="#000000"/>
                Window Screens
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="faq-link" to="/resume">
-            <FontAwesomeIcon icon={faQuestion} color="#000000"/>
-               FAQ
-            </NavLink>
+          
            
            
            
