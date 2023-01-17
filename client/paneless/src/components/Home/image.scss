@@ -7,7 +7,9 @@
     background-image: url('../../assets/images/transparent.png');
     background-position: center;
     background-size: cover;
+   
 }
+
 .textBox {
     position:absolute;
     top:28%;
@@ -15,8 +17,53 @@
     width:35vw;
     left:30%;
     color:white;
+    animation: fadeIn 4s;
     text-align: center;
     font-family:sans-serif;
     text-shadow: 2px 2px black;
     font-size: 50px;
 }
+
+.logo-animate {
+    position: absolute;
+    top: 0%;
+    height:10vh;
+    width:10vw;
+    left:100%;
+    background-image: url('../../assets/images/transparent.png');
+    background-position: center;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes example {
+    0%   { left:100%; top:0px;}
+    25%  { left:100%; top:20%;}
+    50%  { left:100%; top:40%;}
+    75%  { left:100%; top:60%;}
+    100% { left:100%; top:80%;}
+   
+}
+  .logo-animatee {
+    position: absolute;
+    top: 0%;
+    height:10vh;
+    width:10vw;
+    right:100%;
+    background-image: url('../../assets/images/transparent.png');
+    background-position: center;
+    background-size: cover;
+    animation-name:testing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes testing {
+    0%   {right:100%; top:80%;}
+    25%  {right:100%; top:60%}
+    50%  {right:100%; top:40%;}
+    75%  {right:100%; top:20%;}
+    100% {right:100%; top:0%;}
+  }

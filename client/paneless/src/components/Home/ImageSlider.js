@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from '../../assets/images/transparent.png'
 import './image.scss'
 const ImageSlider = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -59,6 +58,8 @@ const goToNext = () => {
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
         <div className='logoBox'></div>
         <div style={slideStyles}></div>
+        <div className="logo-animate"></div>
+        <div className="logo-animatee"></div>
         <div className='textBox'>
             <p>See the World Through Clean Windows</p>
         </div>
