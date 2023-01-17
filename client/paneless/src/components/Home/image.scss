@@ -34,16 +34,22 @@
     background-position: center;
     background-size: cover;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 @keyframes example {
     0%   { left:100%; top:0px;}
-    25%  { left:100%; top:20%;}
-    50%  { left:100%; top:40%;}
-    75%  { left:100%; top:60%;}
-    100% { left:100%; top:80%;}
+    10%  { left:100%; top:20%;}
+    20%  { left:100%; top:40%;}
+    30%  { left:100%; top:60%;}
+    40% { left:100%; top:80%;}
+    50% { left:100%; top:100%;}
+    60% { left:100%; top:80%;}
+    70%  { left:100%; top:60%;}
+    80%  { left:100%; top:40%;}
+    90%  { left:100%; top:20%;}
+    100%   { left:100%; top:0px;}
    
 }
   .logo-animatee {
@@ -56,14 +62,20 @@
     background-position: center;
     background-size: cover;
     animation-name:testing;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
   @keyframes testing {
-    0%   {right:100%; top:80%;}
-    25%  {right:100%; top:60%}
-    50%  {right:100%; top:40%;}
-    75%  {right:100%; top:20%;}
-    100% {right:100%; top:0%;}
+    0%   { right:100%; top:100%;}
+    10%  { right:100%; top:80%;}
+    20%  { right:100%; top:60%;}
+    30%  { right:100%; top:40%;}
+    40% { right:100%; top:20%;}
+    50% { right:100%; top:0%;}
+    60% { right:100%; top:20%;}
+    70%  { right:100%; top:40%;}
+    80%  { right:100%; top:60%;}
+    90%  { right:100%; top:80%;}
+    100%   { right:100%; top:100%;}
   }
