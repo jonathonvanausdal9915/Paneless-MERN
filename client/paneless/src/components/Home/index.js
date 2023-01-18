@@ -27,7 +27,7 @@ return (
       
         <div style={containerStyles}>
         <ImageSlider slides={slides} />
-        <div className="testing">here i am</div>
+        <div className="testing"> i </div>
         </div>
     </div>
 
