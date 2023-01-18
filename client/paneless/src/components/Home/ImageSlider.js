@@ -22,8 +22,8 @@ const ImageSlider = ({slides}) => {
         top: '50%',
         transform: 'translate(0, -50%)',
         left: '32px',
-        fontSize: '45px',
-        color: '#0074B7',
+        
+        color: 'white',
         zIndex: 1,
         cursor: "pointer",
         fontSize:"80px",
@@ -35,8 +35,8 @@ const ImageSlider = ({slides}) => {
         top: '50%',
         transform: 'translate(0, -50%)',
         right: '32px',
-        fontSize: '45px',
-        color: 'orange',
+      
+        color: 'white',
         zIndex: 1,
         cursor: "pointer",
         fontSize:"80px",
@@ -57,12 +57,16 @@ const goToNext = () => {
 const dotsContainerStyles = {
     display: 'flex',
     justifyContent: 'center',
+    
+    
 
 }
 const dotStyles = {
     margin: '0 3px',
     cursor: "pointer",
     fontSize: '100px',
+    color:'#1b2430',
+   
 };
 const goToSlide = slideIndex => {
     setCurrentIndex(slideIndex);
@@ -86,15 +90,20 @@ const goToSlide = slideIndex => {
                 <button className='quotebtn'>Request Quote</button>
                 <button className='contactbtn'>Contact Us</button>
             </div>
-           
-        </div>
-        <div style={slideStyles}></div>
-       
-        <div style={dotsContainerStyles}>
+            <br />
+            <br />
+            <div style={dotsContainerStyles}>
             {slides.map((slide,slideIndex) => (
                 <div key={slideIndex} style={dotStyles} onClick={() => goToSlide(slideIndex)}>&#183;</div>
             ))}
         </div>
+           
+        </div>
+        
+        <div style={slideStyles}></div>
+       
+       
+        
     </div>
     </>
     )

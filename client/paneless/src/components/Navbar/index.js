@@ -19,7 +19,7 @@ class  Navbarr extends Component {
 return(
   <>
   <nav>
-    <img className='logo' src={logo} alt="logo" />;
+    <img className='logo' src={logo} alt="logo" />
 
   <div> 
     <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
