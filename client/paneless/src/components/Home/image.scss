@@ -33,68 +33,42 @@
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-// .logo-animate {
-//     position: absolute;
-//     top: 0%;
-//     height:10vh;
-//     width:10vw;
-//     left:100%;
-//     background-image: url('../../assets/images/transparent.png');
-//     background-position: center;
-//     background-size: cover;
-//     animation-name: example;
-//     animation-duration: 10s;
-//     animation-iteration-count: infinite;
-//     animation-timing-function: linear;
-// }
-// @keyframes example {
-//     0%   { left:100%; top:0px;}
-//     10%  { left:100%; top:20%;}
-//     20%  { left:100%; top:40%;}
-//     30%  { left:100%; top:60%;}
-//     40% { left:100%; top:80%;}
-//     50% { left:100%; top:100%;}
-//     60% { left:100%; top:80%;}
-//     70%  { left:100%; top:60%;}
-//     80%  { left:100%; top:40%;}
-//     90%  { left:100%; top:20%;}
-//     100%   { left:100%; top:0px;}
+.logo-animate {
+    position: absolute;
+    top: -40px;
+    height:4vh;
+    width:4vw;
+    left:97%;
+    background-image: url('../../assets/images/transparent.png');
+    background-position: center;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes example {
+    0%   { left:97%; top:-40px;}
+    10%  { left:80%; top:-40px;}
+    20%  { left:60%; top:-40px;}
+    30%  { left:40%; top:-40px;}
+    40% { left:20%; top:-40px;}
+    50% { left:0%; top:-40px;}
+    60% { left:20%; top:-40px;}
+    70%  { left:40%; top:-40px;}
+    80%  { left:60%; top:-40px;}
+    90%  { left:80%; top:-40px;}
+    100%   { left:97%; top:-40px;}
    
-// }
-//   .logo-animatee {
-//     position: absolute;
-//     top: 0%;
-//     height:10vh;
-//     width:10vw;
-//     right:100%;
-//     background-image: url('../../assets/images/transparent.png');
-//     background-position: center;
-//     background-size: cover;
-//     animation-name:testing;
-//     animation-duration: 10s;
-//     animation-iteration-count: infinite;
-//     animation-timing-function: linear;
-//   }
-//   @keyframes testing {
-//     0%   { right:100%; top:100%;}
-//     10%  { right:100%; top:80%;}
-//     20%  { right:100%; top:60%;}
-//     30%  { right:100%; top:40%;}
-//     40% { right:100%; top:20%;}
-//     50% { right:100%; top:0%;}
-//     60% { right:100%; top:20%;}
-//     70%  { right:100%; top:40%;}
-//     80%  { right:100%; top:60%;}
-//     90%  { right:100%; top:80%;}
-//     100%   { right:100%; top:100%;}
-//   }
+}
+
 .testing {
   height:50vh;
   width:100%;
 }
 .contactbtn {
   height:5vh;
-  width:10vw;
+  width:12vw;
   border-radius:15px;
   background-color:#0074B7;
   color:orange;
@@ -110,7 +84,7 @@
 
 .quotebtn {
   height:5vh;
-  width:10vw;
+  width:12vw;
   border-radius:15px;
   background-color:#0074B7;
   color:orange;

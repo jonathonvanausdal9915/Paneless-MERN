@@ -73,6 +73,7 @@ const goToSlide = slideIndex => {
         <>
        
     <div style={sliderStyles}>
+        <div className="logo-animate"></div>
         
         <div style={leftArrowStyles} onClick={goToPrevious}>&#8592;</div>
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
