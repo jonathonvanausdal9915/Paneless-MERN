@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './image.scss'
+
 const ImageSlider = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const sliderStyles = {
@@ -25,6 +26,7 @@ const ImageSlider = ({slides}) => {
         color: '#fff',
         zIndex: 1,
         cursor: "pointer",
+        fontSize:"80px",
 
     };
     const rightArrowStyles = {
@@ -36,6 +38,7 @@ const ImageSlider = ({slides}) => {
         color: '#fff',
         zIndex: 1,
         cursor: "pointer",
+        fontSize:"80px",
 
     };
 
@@ -49,21 +52,43 @@ const goToNext = () => {
     const newIndex = isLastSlide ? 0 : currentIndex +1;
     setCurrentIndex(newIndex);
 };
+const dotsContainerStyles = {
+    display: 'flex',
+    justifyContent: 'center',
 
+}
+const dotStyles = {
+    margin: '0 3px',
+    cursor: "pointer",
+    fontSize: '100px',
+};
+const goToSlide = slideIndex => {
+    setCurrentIndex(slideIndex);
+}
 
 
     return (
         <>
        
     <div style={sliderStyles}>
+        
         <div style={leftArrowStyles} onClick={goToPrevious}>&#8592;</div>
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
-        <div className='logoBox'></div>
+        <div className="logoBox"></div>
+        <div className="textBox">
+            <p><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
+            <div className="btn-alignment">
+                <button className='quotebtn'>Request Quote</button>
+                <button className='contactbtn'>Contact Us</button>
+            </div>
+           
+        </div>
         <div style={slideStyles}></div>
-        <div className="logo-animate"></div>
-        <div className="logo-animatee"></div>
-        <div className='textBox'>
-            <p>See the World Through Clean Windows</p>
+       
+        <div style={dotsContainerStyles}>
+            {slides.map((slide,slideIndex) => (
+                <div key={slideIndex} style={dotStyles} onClick={() => goToSlide(slideIndex)}>&#183;</div>
+            ))}
         </div>
     </div>
     </>

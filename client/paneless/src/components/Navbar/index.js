@@ -34,33 +34,33 @@ window.addEventListener('scroll', changeBackground);
    <div className="navbar-container">
    <img src={logo} alt="placholder" className="logo" />
             <NavLink exact="true" activeclassname="active" to="/">
-            <FontAwesomeIcon icon={faHome} color="#000000"/>
-                Home
+            <FontAwesomeIcon icon={faHome} color="#000000"/>&nbsp;
+                <b>Home</b> &nbsp;|
             </NavLink>
             <NavLink exact="true" activeclassname="active"  className="about-link"  to="/about">
-            <FontAwesomeIcon icon={faInfoCircle} color="#000000"/>
-            About Us
+            <FontAwesomeIcon icon={faInfoCircle} color="#000000"/>&nbsp;
+            <b>About Us</b> &nbsp;|
                 
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="featured-link" to="/featured">
-            <FontAwesomeIcon icon={faFire} color="#000000"/>
-                Featured
+            <FontAwesomeIcon icon={faFire} color="#000000"/>&nbsp;
+            <b>Featured</b> &nbsp;|
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="quote-link" to="/quote">
            
-               Request Quote
+               Request Quote&nbsp; |
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="window-link" to="/resume">
           
-               Window Screens
+               Window Screens &nbsp;|
             </NavLink>
           
            
            
            
               <NavLink exact="true" activeclassname="active" className="login-link" to="/resume">
-              <FontAwesomeIcon icon={faUser} color="#000000"/>
-              Login
+              <FontAwesomeIcon icon={faUser} color="#000000"/>&nbsp;
+              <b>Login</b> |
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="create-link" to="/resume">
             <FontAwesomeIcon icon={faUserPlus} color="#000000"/>
