@@ -7,10 +7,12 @@
     background-image: url('../../assets/images/transparent.png');
     background-position: center;
     background-size: cover;
+    font-weight: 900;
    
     animation: fadeIn 4s;
    
 }
+
 
 .textBox {
     position:absolute;
@@ -76,7 +78,7 @@
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:20px;
-  border-color:#0074B7;
+  border-color:orange;
   transition: 0.3s ease-in-out;
   font-weight:800;
   
@@ -92,7 +94,7 @@
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:20px;
-  border-color:#0074B7;
+  border-color:orange;
   transition: 0.3s ease-in-out;
   font-weight:800;
 }
