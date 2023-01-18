@@ -17,6 +17,7 @@ const containerStyles = {
     width: '100%',
     height: '80vh',
     margin:'auto',
+    paddingBottom:'25px'
    
 };
 const Home = () => {

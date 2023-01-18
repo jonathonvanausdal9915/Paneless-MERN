@@ -7,7 +7,8 @@
     background-image: url('../../assets/images/transparent.png');
     background-position: center;
     background-size: cover;
-    animation:fadeIn 4s
+   
+    animation: fadeIn 4s;
    
 }
 
@@ -18,7 +19,7 @@
     width:35vw;
     left:35%;
     color:white;
-    animation: fadeIn 4s;
+    animation: fadeIn 3s 2s backwards;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px black;
@@ -102,6 +103,7 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:20px;
   border-color:#0074B7;
+  transition: 0.3s ease-in-out;
   
 }
 
@@ -116,6 +118,7 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:20px;
   border-color:#0074B7;
+  transition: 0.3s ease-in-out;
   
 }
 .quotebtn:hover {
@@ -135,8 +138,10 @@
 @media screen and (max-width: 800px) {
   .quotebtn{
     font-size: 2vw;
+    width:15vw;
   }
   .contactbtn{
     font-size:2vw;
+    width:15vw;
   }
 }
