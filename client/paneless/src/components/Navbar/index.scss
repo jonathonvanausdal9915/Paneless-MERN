@@ -12,7 +12,7 @@ nav {
     
     a.active {
         svg{
-            color: #17cf97;
+            color: #0074B7;
         }
 } }
 #navbar{
@@ -33,14 +33,14 @@ nav {
     transition: 0.3s ease-in-out;
 }
 #navbar li a:hover{
-    color: #17cf97;
+    color: #0074B7;
 }
 #navbar li a:hover::after,
 #navbar li a:active::after {
     content:'';
-    width:30%;
+    width:80%;
     height: 2px;
-    background: #17cf97;
+    background: #0074B7;
     position: absolute;
     bottom: -4px;
     left: 20px;
