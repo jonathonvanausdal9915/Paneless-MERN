@@ -23,10 +23,11 @@ const ImageSlider = ({slides}) => {
         transform: 'translate(0, -50%)',
         left: '32px',
         fontSize: '45px',
-        color: '#fff',
+        color: '#0074B7',
         zIndex: 1,
         cursor: "pointer",
         fontSize:"80px",
+        fontWeight:"700",
 
     };
     const rightArrowStyles = {
@@ -35,10 +36,11 @@ const ImageSlider = ({slides}) => {
         transform: 'translate(0, -50%)',
         right: '32px',
         fontSize: '45px',
-        color: '#fff',
+        color: 'orange',
         zIndex: 1,
         cursor: "pointer",
         fontSize:"80px",
+        fontWeight:"700",
 
     };
 
