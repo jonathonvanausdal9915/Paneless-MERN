@@ -8,6 +8,7 @@ import { Component } from "react";
 
 
 
+
 class  Navbarr extends Component {
   state = {clicked: false };
   handleClick = () =>{

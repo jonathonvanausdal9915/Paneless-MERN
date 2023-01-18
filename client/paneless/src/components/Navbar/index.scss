@@ -52,7 +52,7 @@ nav {
 #mobile {
     display:none;
 }
-@media screen and (max-width:769px){
+@media screen and (max-width:900px){
     #navbar{
         display:flex;
         flex-direction: column;
@@ -67,7 +67,10 @@ nav {
         box-shadow: 0 40px 60px rgba(0,0,0,0).01;
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
+       
+       
     }
+    
     #navbar.active {
         right:0px;
     }

@@ -76,7 +76,9 @@ const goToSlide = slideIndex => {
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
         <div className="logoBox"></div>
         <div className="textBox">
+        
             <p><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
+           
             <div className="btn-alignment">
                 <button className='quotebtn'>Request Quote</button>
                 <button className='contactbtn'>Contact Us</button>

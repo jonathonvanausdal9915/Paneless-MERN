@@ -22,7 +22,7 @@
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px black;
-    font-size: 42px;
+    font-size: 2.8vw;
     border-radius:15px;
     border-color:#0074B7;
     border-style:solid;
@@ -131,4 +131,12 @@
   flex-direction:row;
   justify-content: center;
   gap:5%;
+}
+@media screen and (max-width: 800px) {
+  .quotebtn{
+    font-size: 2vw;
+  }
+  .contactbtn{
+    font-size:2vw;
+  }
 }
