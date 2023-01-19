@@ -26,7 +26,7 @@ const ImageSlider = ({slides}) => {
         color: 'white',
         zIndex: 1,
         cursor: "pointer",
-        fontSize:"80px",
+        fontSize:"50px",
         fontWeight:"700",
 
     };
@@ -39,7 +39,7 @@ const ImageSlider = ({slides}) => {
         color: 'white',
         zIndex: 1,
         cursor: "pointer",
-        fontSize:"80px",
+        fontSize:"50px",
         fontWeight:"700",
 
     };
