@@ -52,6 +52,7 @@ return (
             <div className="box-1">
                 <div className="icon-1"><i><FontAwesomeIcon icon={faLocationDot} size="5x"color="#0074B7"/></i></div>
                 <br />
+              
                 Tell us about your windows, service address, and how to get in touch.</div>
             <div className="box-2">
                 <div className="icon-2"><i><FontAwesomeIcon icon={faContactCard} size="5x" color="#0074B7"/></i></div>
