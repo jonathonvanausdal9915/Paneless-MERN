@@ -1,6 +1,7 @@
 import Navbarr from '../Navbar';
 import './index.scss';
-import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Footer from '../Footer';
 
 
 const Layout = () => {
@@ -19,7 +20,7 @@ const Layout = () => {
     </div>
    
     </div>
-
+    <Footer />
      </>
     )
 }
