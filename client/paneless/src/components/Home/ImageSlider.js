@@ -107,6 +107,7 @@ const goToSlide = slideIndex => {
        
         
     </div>
+  
     </>
     )
 

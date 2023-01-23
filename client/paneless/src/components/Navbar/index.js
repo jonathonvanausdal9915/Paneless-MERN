@@ -24,38 +24,38 @@ return(
   <div> 
     <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
       <li>
-        <NavLink exact="true" activeclassName="active" to='/'>
+        <NavLink exact="true" activeclassname="active" to='/'>
         <FontAwesomeIcon icon={faHome} color="orange"/>
         Home |
         </NavLink>
         
       </li>
       <li>
-      <NavLink exact="true" activeclassName="active" to='/About'>
+      <NavLink exact="true" activeclassname="active" to='/About'>
         <FontAwesomeIcon icon={faInfoCircle} color="orange"/>
         About Us |
         </NavLink>
       </li>
       <li>
-      <NavLink exact="true" activeclassName="active" to='/About'>
+      <NavLink exact="true" activeclassname="active" to='/About'>
         <FontAwesomeIcon icon={faFire} color="orange"/>
         Featured |
         </NavLink>
       </li>
       <li>
-      <NavLink exact="true" activeclassName="active" to='/About'>
+      <NavLink exact="true" activeclassname="active" to='/About'>
         
         Window Screens | 
         </NavLink>
       </li>
       <li>
-      <NavLink className="login-link" exact="true" activeclassName="active" to='/About'>
+      <NavLink className="login-link" exact="true" activeclassname="active" to='/About'>
         <FontAwesomeIcon icon={faUser} color="orange"/>
         Login 
         </NavLink>
       </li>
       <li>
-      <NavLink className="signup-link"exact="true" activeclassName="active" to='/About'>
+      <NavLink className="signup-link"exact="true" activeclassname="active" to='/About'>
         <FontAwesomeIcon icon={faUserPlus} color="orange"/>
         Sign Up for Free 
         </NavLink>
