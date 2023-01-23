@@ -85,6 +85,8 @@ const goToSlide = slideIndex => {
         <div className="textBox">
         
             <p><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
+
+            <br />
            
             <div className="btn-alignment">
                 <button className='quotebtn'>Request Quote</button>
