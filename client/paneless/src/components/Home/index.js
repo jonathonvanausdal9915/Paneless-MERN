@@ -7,7 +7,7 @@ import image4 from '../../assets/images/paneless2.jpeg'
 import image5 from '../../assets/images/paneless3.jpeg'
 import {GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import './index.scss'
-import { faMapLocationDot} from '@fortawesome/free-solid-svg-icons'
+import { faMapLocationDot,faLocationDot,faContactCard,faPhone} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const slides = [
     {image: image1 },
@@ -45,7 +45,35 @@ return (
         <ImageSlider slides={slides} />
         
         </div>
+        <h2 className="whats-h2"><u>What's Next?</u></h2>
+        <br />
+        <br />
+        <div className="whats-next">
+            <div className="box-1">
+                <div className="icon-1"><i><FontAwesomeIcon icon={faLocationDot} size="5x"color="#0074B7"/></i></div>
+                <br />
+                Tell us about your windows, service address, and how to get in touch.</div>
+            <div className="box-2">
+                <div className="icon-2"><i><FontAwesomeIcon icon={faContactCard} size="5x" color="#0074B7"/></i></div>
+                <br />
+                We contact our professionals and find the best one for you.</div>
+            <div className="box-3">
+                <div className="icon-3"><i><FontAwesomeIcon icon={faPhone} size="5x"color="#0074B7"/></i></div>
+                <br />
+                One of our skilled pros will be in touch with you to get started.</div>
+        </div>
+        <br />
+        <br />
+        <div className="button-margin">
+            <button className="request-btn1">Request Quote</button>
+        </div>
+        <br />
+       
+        < hr className="hr" />
+        <br />
+       
         <div className="map-section">
+        
            
         <Map /> 
         <h2 className="h2">Our Service Areas</h2>
