@@ -2,13 +2,16 @@ import './index.scss'
 import Loader from 'react-loaders'
 import { faUser,} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  NavLink,} from 'react-router-dom'
 
 const Login = () => {
     return ( <>
     <div className="login-box">
           <div className="login">
             <h2 className="loginh2">Login</h2>
-            <p className="ptag">Don't have an account? <u>Register</u></p>
+            <p className="ptag">Don't have an account?<NavLink className="register" exact="true" to='/signup'>
+        <u>Register</u>
+        </NavLink></p>
             <br />
             <FontAwesomeIcon icon={faUser} size='5x'color="orange"/>
             <form className="form">
