@@ -5,9 +5,10 @@ import image2 from '../../assets/images/example5.png'
 import image3 from '../../assets/images/paneless1.jpeg'
 import image4 from '../../assets/images/paneless2.jpeg'
 import image5 from '../../assets/images/paneless3.jpeg'
+import image6 from '../../assets/images/review.png'
 import {GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import './index.scss'
-import { faMapLocationDot,faLocationDot,faContactCard,faPhone} from '@fortawesome/free-solid-svg-icons'
+import { faMapLocationDot,faLocationDot,faContactCard,faPhone,faStar} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const slides = [
     {image: image1 },
@@ -44,8 +45,51 @@ return (
         <div style={containerStyles}>
         <ImageSlider slides={slides} />
         
+        
         </div>
+        <div className="about-us">
+            <div className="about-box">
+              <img src={image5} className="image-5" />
+            </div>
+            <div className="about-box1">
+                <div className="about-box2">
+                    <h2 className="abouth2"><u>ABOUT US</u></h2>
+                    <br />
+                    <p>What started as three teenagers washing windows to save money for church missions
+                    has evolved into a passion for cleaning windows and keeping happy customers!
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <br />
+        < hr className="hr" />
+        <br />
+        <div className="reviews">
+            <div className="review-box">
+                <div className="review-box2">
+                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
+                
+
+                        <p>"Nick and the whole crew of Paneless Windows were awesome, friendly, efficient, thorough, and professional.
+                         Highly recommend to all. Do yourself a favor and let them put the sparkle back in your windows."
+                         </p>
+                         <p>-Paul Graham</p>
+                </div>
+            </div>
+            <div className="review-box1">
+                <img src={image6} className="image-6" />
+            </div>
+        </div>
+        < br />
+        < hr className="hr" />
+        <br />
         <h2 className="whats-h2"><u>What's Next?</u></h2>
+        
         <br />
         <br />
         <div className="whats-next">
