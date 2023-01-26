@@ -90,7 +90,6 @@ return (
             </div>
         </div>
         < br />
-        < hr className="hr" />
         <br />
         <div className="featured">
             <h2 className="featuredh2">Featured Projects</h2>
@@ -113,6 +112,7 @@ return (
                 </div>
             </div>
         </div>
+        <br />
         <h2 className="whats-h2"><u>What's Next?</u></h2>
         
         <br />
