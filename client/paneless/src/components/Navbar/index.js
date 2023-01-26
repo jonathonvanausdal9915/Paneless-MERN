@@ -49,7 +49,7 @@ return(
         </NavLink>
       </li>
       <li>
-      <NavLink className="login-link" exact="true" activeclassname="active" to='/About'>
+      <NavLink className="login-link" exact="true" activeclassname="active" to='/login'>
         <FontAwesomeIcon icon={faUser} color="orange"/>
         Login 
         </NavLink>

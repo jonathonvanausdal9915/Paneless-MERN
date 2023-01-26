@@ -73,10 +73,12 @@ return (
         < hr className="hr" />
         <br />
        
+       
         <div className="map-section">
         
            
         <Map /> 
+       
         <h2 className="h2">Our Service Areas</h2>
         <br />
         <section className="service-area">
@@ -103,6 +105,8 @@ return (
         </section>
         </div>
        
+    <br />
+    <br />
     </div>
 
 )
