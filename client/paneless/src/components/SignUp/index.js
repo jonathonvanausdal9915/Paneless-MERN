@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const SignUp = () => {
     return ( <>
     <div className="login-box">
-          <div className="login">
+          <div className="signup">
             <h2 className="loginh2">Sign Up</h2>
             <p className="ptag">Already Have an account? <u>Login</u></p>
             <br />
