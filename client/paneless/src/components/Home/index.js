@@ -51,7 +51,7 @@ return (
         
         
         </div>
-        <div className="about-us">
+        <section className="about-us" id='about'>
             <div className="about-box">
               <img alt="placeholder" src={image5} className="image-5" />
             </div>
@@ -65,7 +65,7 @@ return (
                 </div>
                 
             </div>
-        </div>
+        </section>
         <br />
         < hr className="hr" />
         <br />
@@ -91,7 +91,7 @@ return (
         </div>
         < br />
         <br />
-        <div className="featured">
+        <div className="featured" id="featured">
             <h2 className="featuredh2">Featured Projects</h2>
             <div className="featured-projects">
                 

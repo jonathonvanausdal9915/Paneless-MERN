@@ -1,9 +1,10 @@
 import './index.scss'
-import {  NavLink } from 'react-router-dom'
+import {  NavLink,} from 'react-router-dom'
 import logo from '../../assets/images/transparent.png'
 import { faHome, faInfoCircle, faUser, faUserPlus, faFire,} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useState,  } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import { Component } from "react";
 
 
@@ -31,16 +32,16 @@ return(
         
       </li>
       <li>
-      <NavLink exact="true" activeclassname="active" to='/About'>
+      <Link to="home/#about" exact="true" activeclassname="active">
         <FontAwesomeIcon icon={faInfoCircle} color="orange"/>
         About Us |
-        </NavLink>
+        </Link>
       </li>
       <li>
-      <NavLink exact="true" activeclassname="active" to='/About'>
+      <Link exact="true" activeclassname="active" to="home/#featured">
         <FontAwesomeIcon icon={faFire} color="orange"/>
         Featured |
-        </NavLink>
+        </Link>
       </li>
       <li>
       <NavLink exact="true" activeclassname="active" to='/About'>
