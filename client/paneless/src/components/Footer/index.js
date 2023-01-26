@@ -12,10 +12,10 @@ const Footer = () => {
         <br />
         <p> Window Washing</p>
         <br />
-        <i><FontAwesomeIcon icon={faFacebook} size="2x"color="#0074B7"/></i>
+        <i><FontAwesomeIcon icon={faFacebook} size="3x"color="#0074B7"/></i>
         &nbsp;
         &nbsp;
-        <i><FontAwesomeIcon icon={faInstagram} size="2x"color="#0074B7"/></i>
+        <i><FontAwesomeIcon icon={faInstagram} size="3x"color="#0074B7"/></i>
     </span>
     <span className="span-2">
         <h2>Contact Information</h2>
