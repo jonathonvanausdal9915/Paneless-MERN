@@ -6,6 +6,10 @@ import image3 from '../../assets/images/paneless1.jpeg'
 import image4 from '../../assets/images/paneless2.jpeg'
 import image5 from '../../assets/images/paneless3.jpeg'
 import image6 from '../../assets/images/review.png'
+import image7 from '../../assets/images/after-1.png'
+import image8 from '../../assets/images/after-2.png'
+import image9 from '../../assets/images/before-1.png'
+import image10 from '../../assets/images/before-2.png'
 import {GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import './index.scss'
 import { faMapLocationDot,faLocationDot,faContactCard,faPhone,faStar} from '@fortawesome/free-solid-svg-icons'
@@ -49,7 +53,7 @@ return (
         </div>
         <div className="about-us">
             <div className="about-box">
-              <img src={image5} className="image-5" />
+              <img alt="placeholder" src={image5} className="image-5" />
             </div>
             <div className="about-box1">
                 <div className="about-box2">
@@ -82,12 +86,33 @@ return (
                 </div>
             </div>
             <div className="review-box1">
-                <img src={image6} className="image-6" />
+                <img alt="placeholder"src={image6} className="image-6" />
             </div>
         </div>
         < br />
         < hr className="hr" />
         <br />
+        <div className="featured">
+            <h2 className="featuredh2">Featured Projects</h2>
+            <div className="featured-projects">
+                
+                <div>
+                    <h2 className="before-after">Before</h2>
+                    <img className="before-1" src={image9} alt="placeholder"></img></div>
+                <div>
+                    <h2 className="before-after">After</h2>
+                    <img className="after-1"src={image7} alt="placeholder"></img>
+                </div>
+                <div>
+                    <h2 className="before-after">Before</h2>
+                    <img className="before-2"src={image8} alt="placeholder"></img>
+                </div>
+                <div>
+                    <h2 className="before-after">After</h2>
+                    <img className="after-2"src={image10} alt="placeholder"></img>
+                </div>
+            </div>
+        </div>
         <h2 className="whats-h2"><u>What's Next?</u></h2>
         
         <br />
