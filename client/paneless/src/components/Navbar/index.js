@@ -55,7 +55,7 @@ return(
         </NavLink>
       </li>
       <li>
-      <NavLink className="signup-link"exact="true" activeclassname="active" to='/About'>
+      <NavLink className="signup-link"exact="true" activeclassname="active" to='/signup'>
         <FontAwesomeIcon icon={faUserPlus} color="orange"/>
         Sign Up for Free 
         </NavLink>
