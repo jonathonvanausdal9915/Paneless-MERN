@@ -59,7 +59,7 @@ return (
                 <div className="about-box2">
                     <h2 className="abouth2"><u>ABOUT US</u></h2>
                     <br />
-                    <p>What started as three teenagers washing windows to save money for church missions
+                    <p className="ptag2">What started as three teenagers washing windows to save money for church missions
                     has evolved into a passion for cleaning windows and keeping happy customers!
                     </p>
                 </div>
@@ -72,14 +72,15 @@ return (
         <div className="reviews">
             <div className="review-box">
                 <div className="review-box2">
-                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
-                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
-                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
-                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
-                <i><FontAwesomeIcon icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon className="stary" icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon className="stary" icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon className="stary" icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon className="stary" icon={faStar} size="2x"color="orange"/></i>
+                <i><FontAwesomeIcon className="stary" icon={faStar} size="2x"color="orange"/></i>
+                
                 
 
-                        <p>"Nick and the whole crew of Paneless Windows were awesome, friendly, efficient, thorough, and professional.
+                        <p className="ptag3">"Nick and the whole crew of Paneless Windows were awesome, friendly, efficient, thorough, and professional.
                          Highly recommend to all. Do yourself a favor and let them put the sparkle back in your windows."
                          </p>
                          <p>-Paul Graham</p>
@@ -119,16 +120,16 @@ return (
         <br />
         <div className="whats-next">
             <div className="box-1">
-                <div className="icon-1"><i><FontAwesomeIcon icon={faLocationDot} size="5x"color="#0074B7"/></i></div>
+                <div className="icon-1"><i><FontAwesomeIcon  className="icon-1x" icon={faLocationDot} size="5x"color="#0074B7"/></i></div>
                 <br />
               
                 Tell us about your windows, service address, and how to get in touch.</div>
             <div className="box-2">
-                <div className="icon-2"><i><FontAwesomeIcon icon={faContactCard} size="5x" color="#0074B7"/></i></div>
+                <div className="icon-2"><i><FontAwesomeIcon className="icon-1x" icon={faContactCard} size="5x" color="#0074B7"/></i></div>
                 <br />
                 We contact our professionals and find the best one for you.</div>
             <div className="box-3">
-                <div className="icon-3"><i><FontAwesomeIcon icon={faPhone} size="5x"color="#0074B7"/></i></div>
+                <div className="icon-3"><i><FontAwesomeIcon  className="icon-1x"icon={faPhone} size="5x"color="#0074B7"/></i></div>
                 <br />
                 One of our skilled pros will be in touch with you to get started.</div>
         </div>

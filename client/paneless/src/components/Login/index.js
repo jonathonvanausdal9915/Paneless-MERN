@@ -14,7 +14,8 @@ const Login = () => {
         </NavLink></p>
             <br />
             <FontAwesomeIcon icon={faUser} size='5x'color="orange"/>
-            <form className="form">
+            
+            <form className="form-1">
             
               <input className="username" placeholder="Username"type='text'></input>
               

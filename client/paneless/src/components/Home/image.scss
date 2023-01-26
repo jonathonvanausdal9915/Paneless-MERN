@@ -116,13 +116,31 @@
   justify-content: center;
   gap:5%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .quotebtn{
-    font-size: 2vw;
+    font-size: 1.2vw;
+    width:12vw;
+  }
+  .contactbtn{
+    font-size: 1.2vw;
+    width:12vw;
+  }
+  .textBox{
+    font-size:25px;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  .quotebtn{
+    font-size: 1.2vw;
     width:15vw;
   }
   .contactbtn{
-    font-size:2vw;
+    font-size: 1.2vw;
     width:15vw;
   }
+  .textBox{
+    font-size:15px;
+  }
 }
+
