@@ -13,7 +13,7 @@ const SignUp = () => {
         <u>Login</u>
         </NavLink></p>
             <br />
-            <FontAwesomeIcon icon={faUserPlus} size='5x'color="orange"/>
+            <FontAwesomeIcon className="signup-icon" icon={faUserPlus} size='5x'color="orange"/>
             <form className="form">
             
               <input className="firstname" placeholder="First name"type='text'></input>

@@ -13,7 +13,7 @@ const Login = () => {
         <u>Register</u>
         </NavLink></p>
             <br />
-            <FontAwesomeIcon icon={faUser} size='5x'color="orange"/>
+            <FontAwesomeIcon className="icon-user" icon={faUser} size='5x'color="orange"/>
             
             <form className="form-1">
             
