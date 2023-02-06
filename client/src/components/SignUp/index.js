@@ -54,17 +54,17 @@ const handleChange = (event) => {
             <FontAwesomeIcon className="signup-icon" icon={faUserPlus} size='5x'color="orange"/>
             <form onSubmit={handleFormSubmit} className="form">
             
-              <input className="firstname" value={formState.firstName} onChange={handleChange} required={true} placeholder="First name"type='text'></input>
+              <input className="firstname" name="firstName" value={formState.firstName} onChange={handleChange} required={true} placeholder="First name"type='text'></input>
              
-              <input className="lastname"  value={formState.lastName} onChange={handleChange} required={true} placeholder="Last name"type='text'></input>
+              <input className="lastname" name="lastName" value={formState.lastName} onChange={handleChange} required={true} placeholder="Last name"type='text'></input>
               
-              <input className="emailaddress" value={formState.email} onChange={handleChange} required={true} placeholder="Email address"type='text'></input>
+              <input className="emailaddress" name="email" value={formState.email} onChange={handleChange} required={true} placeholder="Email address"type='text'></input>
               
               
-              <input className="password"  value={formState.password} onChange={handleChange} required={true} placeholder="Pasword"type='password' ></input>
+              <input className="password" name="password"  value={formState.password} onChange={handleChange} required={true} placeholder="Pasword"type='password' ></input>
              
-              <input className="password-confirm" value={formState.password} onChange={handleChange} required={true} placeholder="Confirm Password"type='password' ></input>
-              <button className="loginbtn"type="submit"onClick={handleFormSubmit}>Sign Up</button>
+              
+              <button className="loginbtn" name="login" type="submit"onClick={handleFormSubmit}>Sign Up</button>
 
             </form>
          

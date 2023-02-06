@@ -42,38 +42,38 @@ const resolvers = {
 
       return { token, profile };
     },
-    addPost: async (parent, { postText, postAuthor }) => {
-      const post = await Post.create({ postText, postAuthor });
+    // addPost: async (parent, { postText, postAuthor }) => {
+    //   const post = await Post.create({ postText, postAuthor });
 
-      await Profile.findOneAndUpdate(
-        { name: postAuthor },
-        { $addToSet: { posts: post._id } }
-      );
+    //   await Profile.findOneAndUpdate(
+    //     { name: postAuthor },
+    //     { $addToSet: { posts: post._id } }
+    //   );
 
-      return post;
-    },
-    addComment: async (parent, { postId, commentText, commentAuthor }) => {
-      return Post.findOneAndUpdate(
-        { _id: postId },
-        {
-          $addToSet: { comments: { commentText, commentAuthor } },
-        },
-        {
-          new: true,
-          runValidators: true,
-        }
-      );
-    },
-    removePost: async (parent, { postId }) => {
-      return Post.findOneAndDelete({ _id: postId });
-    },
-    removeComment: async (parent, { postId, commentId }) => {
-      return Post.findOneAndUpdate(
-        { _id: postId },
-        { $pull: { comments: { _id: commentId } } },
-        { new: true }
-      );
-    },
+    //   return post;
+    // },
+    // addComment: async (parent, { postId, commentText, commentAuthor }) => {
+    //   return Post.findOneAndUpdate(
+    //     { _id: postId },
+    //     {
+    //       $addToSet: { comments: { commentText, commentAuthor } },
+    //     },
+    //     {
+    //       new: true,
+    //       runValidators: true,
+    //     }
+    //   );
+    // },
+    // removePost: async (parent, { postId }) => {
+    //   return Post.findOneAndDelete({ _id: postId });
+    // },
+    // removeComment: async (parent, { postId, commentId }) => {
+    //   return Post.findOneAndUpdate(
+    //     { _id: postId },
+    //     { $pull: { comments: { _id: commentId } } },
+    //     { new: true }
+    //   );
+    // },
   },
 };
 
