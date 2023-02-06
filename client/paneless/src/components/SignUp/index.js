@@ -1,10 +1,48 @@
-import './index.scss'
-import Loader from 'react-loaders'
-import { faUserPlus,} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  NavLink,} from 'react-router-dom'
+import './index.scss';
+import React, { useState } from 'react';
+import Loader from 'react-loaders';
+import { faUserPlus,} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useMutation } from '@apollo/client';
+import {  NavLink,} from 'react-router-dom';
+import { ADD_PROFILE } from '../../utils/mutation';
+import Auth from '../../utils/auth';
 
 const SignUp = () => {
+  const [formState, setFormState] = useState({
+    firstName: '',
+    lastName:'',
+    email: '',
+    password: '',
+  });
+  const [addProfile, data ] = useMutation(ADD_PROFILE);
+
+
+
+const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    console.log(formState);
+
+    try {
+      const { data } = await addProfile({
+        variables: { ...formState },
+      });
+
+      Auth.login(data.addProfile.token);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+
+const handleChange = (event) => {
+    const { name, value } = event.target;
+
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
     return ( <>
     <div className="login-box">
           <div className="signup">
@@ -14,19 +52,19 @@ const SignUp = () => {
         </NavLink></p>
             <br />
             <FontAwesomeIcon className="signup-icon" icon={faUserPlus} size='5x'color="orange"/>
-            <form className="form">
+            <form onSubmit={handleFormSubmit} className="form">
             
-              <input className="firstname" placeholder="First name"type='text'></input>
+              <input className="firstname" value={formState.firstName} onChange={handleChange} required={true} placeholder="First name"type='text'></input>
              
-              <input className="lastname" placeholder="Last name"type='text'></input>
+              <input className="lastname"  value={formState.lastName} onChange={handleChange} required={true} placeholder="Last name"type='text'></input>
               
-              <input className="emailaddress" placeholder="Email address"type='text'></input>
+              <input className="emailaddress" value={formState.email} onChange={handleChange} required={true} placeholder="Email address"type='text'></input>
               
               
-              <input className="password" placeholder="Pasword"type='password' ></input>
+              <input className="password"  value={formState.password} onChange={handleChange} required={true} placeholder="Pasword"type='password' ></input>
              
-              <input className="password-confirm" placeholder="Confirm Password"type='password' ></input>
-              <button className="loginbtn">Sign Up</button>
+              <input className="password-confirm" value={formState.password} onChange={handleChange} required={true} placeholder="Confirm Password"type='password' ></input>
+              <button className="loginbtn"type="submit"onClick={handleFormSubmit}>Sign Up</button>
 
             </form>
          

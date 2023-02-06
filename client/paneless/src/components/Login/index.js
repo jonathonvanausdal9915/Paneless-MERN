@@ -1,10 +1,45 @@
-import './index.scss'
-import Loader from 'react-loaders'
-import { faUser,} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  NavLink,} from 'react-router-dom'
+import './index.scss';
+import Loader from 'react-loaders';
+import React, { useState } from 'react';
+import { faUser,} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useMutation } from '@apollo/client';
+import {  NavLink} from 'react-router-dom';
+import { LOGIN_USER } from '../../utils/mutation';
+import Auth from '../../utils/auth';
 
 const Login = () => {
+  const [formState, setFormState] = useState({ email: '', password: '' });
+        const [login, { error, data }] = useMutation(LOGIN_USER);
+
+    const handleFormSubmit = async (event) => {
+        event.preventDefault();
+        console.log(formState);
+        try {
+          const { data } = await login({
+            variables: { ...formState },
+          });
+    
+          Auth.login(data.login.token);
+        } catch (e) {
+          console.error(e);
+        }
+    
+        // clear form values
+        setFormState({
+          email: '',
+          password: '',
+        });
+      };
+
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+    
+        setFormState({
+          ...formState,
+          [name]: value,
+        });
+      };
     return ( <>
     <div className="login-box">
           <div className="login">

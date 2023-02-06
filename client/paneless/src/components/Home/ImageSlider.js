@@ -84,27 +84,30 @@ const goToSlide = slideIndex => {
         <div className="logoBox"></div>
         <div className="textBox">
         
-            <p><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
-
+            <div className="paragraph">
+                <p><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
             <br />
-           
+            </div>
             <div className="btn-alignment">
                 <button className='quotebtn'>Request Quote</button>
                 <button className='contactbtn'>Contact Us</button>
             </div>
+           <br />
+           
+           
             <br />
             <br />
-            <div style={dotsContainerStyles}>
+       
+           <div style={dotsContainerStyles}>
             {slides.map((slide,slideIndex) => (
                 <div key={slideIndex} style={dotStyles} onClick={() => goToSlide(slideIndex)}>&#183;</div>
             ))}
         </div>
-           
         </div>
         
         <div style={slideStyles}></div>
-       
-       
+     
+           
         
     </div>
   

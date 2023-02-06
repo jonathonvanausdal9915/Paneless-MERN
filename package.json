@@ -12,7 +12,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/bckstrb/trail-media.git"
+      "url": "git+https://github.com/jonathonvanausdal9915/Paneless-Mern"
     },
     "author": "",
     "license": "ISC",
@@ -20,8 +20,8 @@
       "concurrently": "^5.3.0"
     },
     "bugs": {
-      "url": ""
+      "url": "https://github.com/jonathonvanausdal9915/Paneless-Mern"
     },
-    "homepage": ""
+    "homepage": "https://github.com/jonathonvanausdal9915/Paneless-Mern"
   }
   
