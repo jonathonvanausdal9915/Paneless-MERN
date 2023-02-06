@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.397759f5.css",
+    "main.js": "/static/js/main.5c817293.js",
+    "static/media/aboutus.png": "/static/media/aboutus.75d73aaa568b243a8823.png",
+    "static/media/aboutus.jpeg": "/static/media/aboutus.9475f96fd403de168135.jpeg",
+    "static/media/example5.png": "/static/media/example5.f104eb32168aa1dd9f55.png",
+    "static/media/paneless3.jpeg": "/static/media/paneless3.eba48233be9df723d3e9.jpeg",
+    "static/media/review.png": "/static/media/review.b043cf1fefbab6d06bb0.png",
+    "static/media/after-1.png": "/static/media/after-1.256cbc2163e2cb7df832.png",
+    "static/media/before-1.png": "/static/media/before-1.6282700a344d7e620f9f.png",
+    "static/media/before-2.png": "/static/media/before-2.326f9f514f5909fca57b.png",
+    "static/media/after-2.png": "/static/media/after-2.34def23cf2fea4049ff4.png",
+    "static/media/paneless2.jpeg": "/static/media/paneless2.aa60375ff8ec06dfe8a3.jpeg",
+    "static/media/paneless1.jpeg": "/static/media/paneless1.d2f8b4580dc9bc730be9.jpeg",
+    "static/media/transparent.png": "/static/media/transparent.cb7090062df271d59c13.png",
+    "index.html": "/index.html",
+    "main.397759f5.css.map": "/static/css/main.397759f5.css.map",
+    "main.5c817293.js.map": "/static/js/main.5c817293.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.397759f5.css",
+    "static/js/main.5c817293.js"
+  ]
+}
