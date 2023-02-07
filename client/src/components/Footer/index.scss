@@ -38,3 +38,9 @@
     font-size:15px;
     color:white;
 }
+@media screen and (max-width: 800px) {
+    .footer {
+        display:none;
+        visibility: hidden;
+    }
+}
