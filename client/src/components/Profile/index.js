@@ -17,7 +17,7 @@ function Profile () {
     <div className="profile-background">
     <div className="profile-box">
         <div className="profile-avatar">
-            <button className="avatar-btn">Upload Photo<FontAwesomeIcon className="signup-icon" icon={faPlus} size='1x' color="orange" /></button>
+            <button className="avatar-btn">Upload Photo+</button>
         </div>
         <span className="greeting"><h1>Hi {profile.firstName}!</h1></span>
         <div className="info-box">
