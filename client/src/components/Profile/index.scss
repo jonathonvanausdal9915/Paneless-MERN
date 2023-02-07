@@ -1,6 +1,6 @@
 .profile-box {
-    height:55vh;
-    width:50vw;
+    height:60vh;
+    width:55vw;
     margin:auto;
     border-style:solid;
     border-radius:25px;
@@ -25,27 +25,14 @@
 }
 .profile-avatar {
     text-align: center;
-    height:15vh;
-    width:15vw;
-    border-style:solid;
+    height:25vh;
+    width:25vw;
     margin:auto;
-    border-radius:50%;
-    background-color:white;
-    box-shadow:
-    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-    100px 100px 80px rgba(0, 0, 0, 0.07)
-  ;
+   
+    
 
 }
-.avatar-btn {
-    position: relative;
-    top:80%;
-    border-radius:25px;
-}
+
 .info-box {
     border-style:solid;
     margin:auto;
@@ -78,5 +65,12 @@
 .greeting {
     font-style: italic;
     color:white;
+    position:absolute;
+    top:15vh;
     
+}
+.profile-image{
+    border-radius: 50%;
+    height:20vh;
+    width:20vw;
 }
