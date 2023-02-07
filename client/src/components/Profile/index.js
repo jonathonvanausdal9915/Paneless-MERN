@@ -14,7 +14,7 @@ function Profile () {
       const profile = data?.profile || {};
     
     return ( <>
-   
+    <div className="profile-background">
     <div className="profile-box">
         <div className="profile-avatar">
             <button className="avatar-btn">Upload Photo<FontAwesomeIcon className="signup-icon" icon={faPlus} size='1x' color="orange" /></button>
@@ -36,7 +36,7 @@ function Profile () {
            
         </div>
     </div>
-   
+    </div>
 
     
     <Loader type="ball-rotate" />
