@@ -5,11 +5,13 @@ import {faHome, faInfoCircle, faUser, faUserPlus, faFire,faPersonThroughWindow,f
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {HashLink as Link} from 'react-router-hash-link';
 
+
 import Auth from '../../utils/auth';
 import {Component} from "react";
 
 
 class Navbarr extends Component {
+    
 
     state = {clicked: false};
     handleClick = () => {
@@ -74,8 +76,11 @@ class Navbarr extends Component {
                 <>
                     <nav>
                         <img className='logo' src={logo} alt="logo"/>
-
+                            
+                                
+                            
                         <div>
+                           
                             <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                                 <li>
                                     <NavLink exact="true" activeclassname="active" to='/'>
@@ -88,7 +93,7 @@ class Navbarr extends Component {
                                 <li>
                                     <NavLink exact="true" activeclassname="active" to='/screens'>
                                     <FontAwesomeIcon icon={faPersonThroughWindow} color="orange"/>&nbsp;
-                                        Window Screens |
+                                        Window Supplies |
                                     </NavLink>
                                 </li>
                                 <li>
