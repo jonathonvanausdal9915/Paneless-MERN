@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import WindowScreens from './components/WindowScreens';
 import {
   ApolloClient,
   InMemoryCache,
@@ -12,6 +13,7 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import { StoreProvider } from './utils/GlobalState';
 
 
 // Construct our main GraphQL API endpoint
@@ -42,14 +44,18 @@ function App() {
   return (
     <>
    <ApolloProvider client={client}>
+   <StoreProvider>
    <Routes>
+    
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="login" element={<Login />} />
+        <Route path="screens" element={<WindowScreens  />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="home" element={<Home />} />
         </Route>
     </Routes>
+    </StoreProvider>
    </ApolloProvider>
    
     </>

@@ -16,20 +16,23 @@ export const ADD_PROFILE = gql`
   }
 `;
 
-// export const ADD_POST = gql`
-//   mutation addPost($postText: String!, $postAuthor: String!) {
-//     addPost(postText: $postText, postAuthor: $postAuthor) {
-//       _id
-//       postText
-//       postAuthor
-//       createdAt
-//       comments {
-//         _id
-//         commentText
-//       }
-//     }
-//   }
-// `;
+export const ADD_ORDER = gql`
+  mutation addOrder($products: [ID]!) {
+    addOrder(products: $products) {
+      purchaseDate
+      products {
+        _id
+        name
+        description
+        price
+        quantity
+        category {
+          name
+        }
+      }
+    }
+  }
+`;
 
 export const LOGIN_USER = gql`
   mutation login($email: String!, $password: String!) {

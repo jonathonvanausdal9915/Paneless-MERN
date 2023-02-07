@@ -20,7 +20,7 @@ class Navbarr extends Component {
         if (!Auth.loggedIn()) {
             return (
                 <>
-                    <nav>
+                    <nav className="nav-1">
                         <img className='logo' src={logo} alt="logo"/>
 
                         <div>
@@ -72,7 +72,7 @@ class Navbarr extends Component {
         } else {
             return (
                 <>
-                    <nav>
+                    <nav className="nav-2">
                         <img className='logo' src={logo} alt="logo"/>
 
                         <div>
@@ -86,7 +86,7 @@ class Navbarr extends Component {
                                 </li>
                                
                                 <li>
-                                    <NavLink exact="true" activeclassname="active" to='/About'>
+                                    <NavLink exact="true" activeclassname="active" to='/screens'>
                                     <FontAwesomeIcon icon={faPersonThroughWindow} color="orange"/>
                                         Window Screens |
                                     </NavLink>

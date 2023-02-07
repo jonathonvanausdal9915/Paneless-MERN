@@ -1,11 +1,12 @@
-nav {
+.nav-1 {
+    
     display:flex;
     align-items:center;
     justify-content: space-between;
     background: #1b2430;
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
-    height:10vh;
+    height:5vh;
     position:sticky;
     top: 0;
     z-index: 999;
@@ -14,7 +15,8 @@ nav {
         svg{
             color: #0074B7;
         }
-} }
+} 
+}
 #navbar{
     display:flex;
     align-items: center;
@@ -90,12 +92,32 @@ nav {
     width:180px;
   }
   .login-link {
-    border-style:solid;
-    border-radius:10px;
+   
+    border-radius:50px;
     border-color:orange;
   }
   .signup-link {
     border-style:solid;
-    border-radius:10px;
-    border-color:orange;
+    border-radius:50px;
+    border-color: orange;
+    
   }
+.nav-2 {
+    
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        background: #1b2430;
+        padding: 20px 80px;
+        box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
+        height:5vh;
+        position:sticky;
+        top: 0;
+        z-index: 999;
+        
+        a.active {
+            svg{
+                color: #0074B7;
+            }
+    } 
+}

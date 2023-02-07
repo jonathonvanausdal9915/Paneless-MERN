@@ -9,21 +9,28 @@ const typeDefs = gql`
     password: String!
     # posts: [Post]!
   }
+  type Product {
+    _id: ID
+    name: String
+    description: String
+    image: String
+    quantity: Int
+    price: Float
+    category: Category
+  }
+  type Category {
+    _id: ID
+    name: String
+  }
 
-  # type Post {
-  #   _id: ID
-  #   postText: String!
-  #   postAuthor: String!
-  #   createdAt: String
-  #   comments: [Comment]!
-  # }
-
-  # type Comment {
-  #   _id: ID
-  #   commentText: String!
-  #   commentAuthor: String!
-  #   createdAt: String
-  # }
+  type Order {
+    _id: ID
+    purchaseDate: String
+    products: [Product]
+  }
+  type Checkout {
+    session: ID
+  }
 
   type Auth {
     token: ID!
@@ -33,20 +40,20 @@ const typeDefs = gql`
   type Query {
     profiles: [Profile]
     profile(_id: ID!): Profile
-    # posts(name: String): [Post]
-    # post(postId: ID!): Post
+    categories: [Category]
+    products(category: ID, name: String): [Product]
+    product(_id: ID!): Product
+    order(_id: ID!): Order
+    checkout(products: [ID]!): Checkout
   }
 
   type Mutation {
     addProfile(firstName: String!,lastName: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
-    # addPost(postText: String!, postAuthor: String!): Post
-    # addComment(
-    #   postId: ID!
-    #   commentText: String!
-    # ): Post
-    # removePost(postId: ID!): Post
-    # removeComment(postId: ID!, commentId: ID!): Post
+    addOrder(products: [ID]!): Order
+    updateUser(firstName: String, lastName: String, email: String, password: String): Profile
+    updateProduct(_id: ID!, quantity: Int!): Product
+  
   }
 `;
 
