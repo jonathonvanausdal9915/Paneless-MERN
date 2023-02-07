@@ -1,0 +1,33 @@
+.profile-box {
+    height:80vh;
+    width:80vw;
+    margin:auto;
+  
+}
+.profile-avatar {
+    text-align: center;
+    height:20vh;
+    width:20vw;
+    border-style:solid;
+    margin:auto;
+    border-radius:50%;
+}
+.avatar-btn {
+    position: relative;
+    top:80%;
+    border-radius:25px;
+}
+.info-box {
+    border-style:solid;
+    margin:auto;
+    position:absolute;
+    left:0;
+    right:0;
+    height:25vh;
+    width:50vw;
+    top:40vh;
+    border-width:thin;
+    border-radius:25px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}

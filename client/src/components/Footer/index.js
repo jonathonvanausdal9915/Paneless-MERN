@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
     <img className="logo-1" src={logo} alt="logo" />
     <span className="span-1">
-        <h2><u>Services</u></h2>
+        <h3><u>Services</u></h3>
        
         <p> Window Washing</p>
         <br />
@@ -18,7 +18,7 @@ const Footer = () => {
         <i><FontAwesomeIcon icon={faInstagram} size="3x"color="#0074B7"/></i>
     </span>
     <span className="span-2">
-        <h2><u>Contact Information</u></h2>
+        <h3><u>Contact Information</u></h3>
         
         <p><i><FontAwesomeIcon icon={faAddressBook} size="1x"color="#0074B7"/></i> &nbsp;636 North 650 West American Fork, Utah 84003</p>
         
@@ -27,7 +27,7 @@ const Footer = () => {
         <p><i><FontAwesomeIcon icon={faEnvelope} size="1x"color="#0074B7"/></i> &nbsp;testing@testing.net</p>
     </span>
     <span className="span-3">
-        <h2><u>Operation Hours</u></h2>
+        <h3><u>Operation Hours</u></h3>
         <p><i><FontAwesomeIcon icon={faCalendar} size="1x"color="#0074B7"/></i> &nbsp;Monday-Friday: 7 AM to 7PM</p>
       
     </span>
