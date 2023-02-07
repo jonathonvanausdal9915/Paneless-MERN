@@ -70,6 +70,7 @@ function Profile () {
         )}
       </ImageUploading>
         </div>
+        <span className="uploadh2">Upload a profile image!</span>
         <span className="greeting"><h1>Hi {profile.firstName}!</h1></span>
         <div className="info-box">
             <h3 className="basic-h3"><u>Basic Info</u> <FontAwesomeIcon className="signup-icon" icon={faContactCard} size='1x' color="#1b2430" /></h3>
