@@ -59,7 +59,7 @@ function Profile () {
             
             {imageList.map((image, index) => (
               <div key={index} className="image-item">
-                <img className="profile-image" src={image['data_url']} alt="Placeholder" height="100%" width="100%"/>
+                <img className="profile-image" src={image['data_url']} alt="Placeholder"/>
                 <div className="image-item__btn-wrapper">
                   <button onClick={() => onImageUpdate(index)}>Update</button>
                   <button onClick={() => onImageRemove(index)}>Remove -</button>
@@ -72,7 +72,7 @@ function Profile () {
         </div>
         <span className="greeting"><h1>Hi {profile.firstName}!</h1></span>
         <div className="info-box">
-            <h3 className="basic-h3"><u>Basic Info</u> <FontAwesomeIcon className="signup-icon" icon={faContactCard} size='1x' color="orange" /></h3>
+            <h3 className="basic-h3"><u>Basic Info</u> <FontAwesomeIcon className="signup-icon" icon={faContactCard} size='1x' color="#1b2430" /></h3>
             <br />
             <p >First Name&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;{profile.firstName}</p>
             <hr />
