@@ -9,10 +9,10 @@ const resolvers = {
       return await Category.find();
     },
     profiles: async () => {
-      return Profile.find().populate('posts');
+      return Profile.find()
     },
     profile: async (parent, { _id }) => {
-      return Profile.findOne({ _id: _id }).populate('posts');
+      return Profile.findOne({ _id: _id })
     },
     products: async (parent, { category, name }) => {
       const params = {};

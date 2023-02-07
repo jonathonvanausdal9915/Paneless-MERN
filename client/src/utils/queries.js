@@ -4,13 +4,10 @@ export const QUERY_PROFILES = gql`
   query allProfiles {
     profiles {
       _id
-      name
+      firstName
+      lastName
       email
-      posts {
-        _id
-        postText
-        createdAt
-      }
+     
     }
   }
 `;
@@ -19,13 +16,10 @@ export const QUERY_SINGLE_PROFILE = gql`
 query singleProfile($_id: ID!) {
   profile(_id: $_id) {
     _id
-    name
+    firstName
+    lastName
     email
-    posts {
-      _id
-      postText
-      createdAt
-    }
+   
   }
 }
 `;
