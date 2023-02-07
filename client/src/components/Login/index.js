@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { faUser,} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useMutation } from '@apollo/client';
-import {  NavLink} from 'react-router-dom';
+import {  NavLink, redirect} from 'react-router-dom';
 import { LOGIN_USER } from '../../utils/mutation';
 import Auth from '../../utils/auth';
 
@@ -19,10 +19,12 @@ const Login = () => {
           const { data } = await login({
             variables: { ...formState },
           });
+         
     
           Auth.login(data.login.token);
         } catch (e) {
           console.error(e);
+          alert(e);
         }
     
         // clear form values
@@ -52,10 +54,10 @@ const Login = () => {
             
             <form className="form-1">
             
-              <input className="username" placeholder="Username"type='text'></input>
+              <input className="username"  onChange={handleChange} required={true} placeholder="Email" name="email" value={formState.email} type='text'></input>
               
-              <input className="password" placeholder="Pasword"type='password' ></input>
-              <button className="loginbtn">Login</button>
+              <input className="password" onChange={handleChange}  required={true} value={formState.password} name="password" placeholder="Pasword"type='password' ></input>
+              <button    onClick={handleFormSubmit} className="loginbtn">Login</button>
 
             </form>
          

@@ -31,29 +31,29 @@ query singleProfile($_id: ID!) {
 `;
 
 
-export const QUERY_POSTS = gql`
-  query getPosts {
-    posts {
-      _id
-      postText
-      postAuthor
-      createdAt
-    }
-  }
-`;
+// export const QUERY_POSTS = gql`
+//   query getPosts {
+//     posts {
+//       _id
+//       postText
+//       postAuthor
+//       createdAt
+//     }
+//   }
+// `;
 
-export const QUERY_SINGLE_POSTS = gql`
-  query singlePost($postId: ID!) {
-    post(postId: $postId) {
-      _id
-      postText
-      postAuthor
-      createdAt
-      comments {
-        _id
-        commentText
-        createdAt
-      }
-    }
-  }
-`;
+// export const QUERY_SINGLE_POSTS = gql`
+//   query singlePost($postId: ID!) {
+//     post(postId: $postId) {
+//       _id
+//       postText
+//       postAuthor
+//       createdAt
+//       comments {
+//         _id
+//         commentText
+//         createdAt
+//       }
+//     }
+//   }
+// `;
