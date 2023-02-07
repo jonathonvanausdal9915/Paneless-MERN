@@ -82,15 +82,15 @@ const goToSlide = slideIndex => {
         <div style={leftArrowStyles} onClick={goToPrevious}>&#8592;</div>
         <div style={rightArrowStyles} onClick={goToNext}>&rarr;</div>
         <div className="logoBox"></div>
-        <div className="textBox">
+        <div className="textBox" >
         
             <div className="paragraph">
-                <p><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
+                <p className="testing13"><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
             <br />
             </div>
             <div className="btn-alignment">
-                <button className='quotebtn'>Request Quote</button>
-                <button className='contactbtn'>Contact Us</button>
+                <button className='quotebtn' >Request Quote</button>
+                <button className='contactbtn'id="testingbtn">Contact Us</button>
             </div>
            <br />
            

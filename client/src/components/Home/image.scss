@@ -38,6 +38,7 @@
 }
 .paragraph {
   width:100%;
+  
 
   height:50%;
 }
@@ -79,8 +80,8 @@
   height:5vh;
   width:12vw;
   border-radius:15px;
-  background-color:transparent;
-  color:orange;
+ 
+  color:#0074B7;
   border-color:orange;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:15px;
@@ -110,11 +111,7 @@
   color:#0074B7;
   border-color:#0074B7;
 }
-.contactbtn:hover {
-  background-color: white;
-  color:#0074B7;
-  border-color:#0074B7;
-}
+
 .btn-alignment {
   display:flex;
   flex-direction:row;
@@ -140,10 +137,8 @@
     font-size: 1.2vw;
     width:12vw;
   }
-  .textBox{
-    font-size:25px;
-  }
   
+
 }
 @media screen and (max-width: 500px) {
   .quotebtn{
@@ -154,8 +149,19 @@
     font-size: 1.2vw;
     width:15vw;
   }
-  .textBox{
-    font-size:15px;
-  }
+
 }
 
+#testingbtn {
+  background-color:orange;
+  color:white;
+}
+#testingbtn:hover {
+  background-color: white;
+  color:#0074B7;
+  border-color:#0074B7;
+}
+.testing13{
+  font-size:1.25rem;
+  
+}

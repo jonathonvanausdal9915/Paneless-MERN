@@ -24,7 +24,7 @@ const Login = () => {
           Auth.login(data.login.token);
         } catch (e) {
           console.error(e);
-          alert(e);
+         
         }
     
         // clear form values
@@ -49,8 +49,9 @@ const Login = () => {
             <p className="ptag">Don't have an account?<NavLink className="register" exact="true" to='/signup'>
         <u>Register</u>
         </NavLink></p>
-            <br />
+           
             <FontAwesomeIcon className="icon-user" icon={faUser} size='5x'color="orange"/>
+           
             
             <form className="form-1">
             
@@ -58,7 +59,11 @@ const Login = () => {
               
               <input className="password" onChange={handleChange}  required={true} value={formState.password} name="password" placeholder="Pasword"type='password' ></input>
               <button    onClick={handleFormSubmit} className="loginbtn">Login</button>
-
+              {error ? (
+          <div>
+            <p className="error-text">The provided credentials are incorrect</p>
+          </div>
+        ) : null}
             </form>
          
           </div>

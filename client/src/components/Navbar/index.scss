@@ -1,12 +1,11 @@
-.nav-1 {
-    
+nav {
     display:flex;
     align-items:center;
     justify-content: space-between;
     background: #1b2430;
     padding: 20px 80px;
     box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
-    height:5vh;
+    height:10vh;
     position:sticky;
     top: 0;
     z-index: 999;
@@ -15,12 +14,12 @@
         svg{
             color: #0074B7;
         }
-} 
-}
+} }
 #navbar{
     display:flex;
     align-items: center;
     justify-content:center;
+    border-radius:15px;
 }
 #navbar li{
     list-style:none;
@@ -74,7 +73,7 @@
     }
 
     #navbar.active {
-        right:0px;
+        left:0px;
     }
     #navbar li{
         margin-bottom: 25px;
@@ -102,7 +101,7 @@
     border-color: orange;
     
   }
-.nav-2 {
+.nav-1 {
     
         display:flex;
         align-items:center;

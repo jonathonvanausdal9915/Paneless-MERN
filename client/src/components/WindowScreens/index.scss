@@ -1,13 +1,13 @@
 .box {
     height: 100vh;
     width:80vw;
-    border-style:solid;
+   
     margin:auto;
 }
 :root {
     --primary: #232F3E;
     --secondary: #F3A847;
-    --tertiary: #B12704;
+    --tertiary: #0074B7;
     --light: #fafafa;
     --dark: #272f32;
     --error: rgb(228, 46, 1);
@@ -30,7 +30,6 @@
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    font-size: 16px;
     color: var(--dark);
   }
   
@@ -100,9 +99,10 @@
     border-radius: .5rem;
     border: none;
     outline: none;
+    color:white;
     cursor: pointer;
     margin: 0 1px;
-    background-color: var(--secondary);
+    background-color: var(--tertiary);
   }
   
   button:hover {

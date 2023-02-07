@@ -1,6 +1,6 @@
 import './index.scss'
 import logo from '../../assets/images/transparent.png'
-import { faPhone,faAddressBook,faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faPhone,faAddressBook,faEnvelope,faCalendar} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faInstagram } from "@fortawesome/free-brands-svg-icons"
 const Footer = () => {
@@ -8,8 +8,8 @@ const Footer = () => {
     <div className="footer">
     <img className="logo-1" src={logo} alt="logo" />
     <span className="span-1">
-        <h2>Services</h2>
-        <br />
+        <h2><u>Services</u></h2>
+       
         <p> Window Washing</p>
         <br />
         <i><FontAwesomeIcon icon={faFacebook} size="3x"color="#0074B7"/></i>
@@ -18,18 +18,18 @@ const Footer = () => {
         <i><FontAwesomeIcon icon={faInstagram} size="3x"color="#0074B7"/></i>
     </span>
     <span className="span-2">
-        <h2>Contact Information</h2>
-        <br />
+        <h2><u>Contact Information</u></h2>
+        
         <p><i><FontAwesomeIcon icon={faAddressBook} size="1x"color="#0074B7"/></i> &nbsp;636 North 650 West American Fork, Utah 84003</p>
-        <br />
+        
         <p><i><FontAwesomeIcon icon={faPhone} size="1x"color="#0074B7"/></i> &nbsp;385-484-1260</p>
-        <br />
+        
         <p><i><FontAwesomeIcon icon={faEnvelope} size="1x"color="#0074B7"/></i> &nbsp;testing@testing.net</p>
     </span>
     <span className="span-3">
-        <h2>Operation Hours</h2>
-        <br />
-        <p>Monday-Friday: 7 AM to 7PM</p>
+        <h2><u>Operation Hours</u></h2>
+        <p><i><FontAwesomeIcon icon={faCalendar} size="1x"color="#0074B7"/></i> &nbsp;Monday-Friday: 7 AM to 7PM</p>
+      
     </span>
     </div>
     </>

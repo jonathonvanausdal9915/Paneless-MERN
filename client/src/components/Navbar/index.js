@@ -20,7 +20,7 @@ class Navbarr extends Component {
         if (!Auth.loggedIn()) {
             return (
                 <>
-                    <nav className="nav-1">
+                    <nav>
                         <img className='logo' src={logo} alt="logo"/>
 
                         <div>
@@ -72,14 +72,14 @@ class Navbarr extends Component {
         } else {
             return (
                 <>
-                    <nav className="nav-2">
+                    <nav>
                         <img className='logo' src={logo} alt="logo"/>
 
                         <div>
                             <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                                 <li>
                                     <NavLink exact="true" activeclassname="active" to='/'>
-                                        <FontAwesomeIcon icon={faHome} color="orange"/>
+                                        <FontAwesomeIcon icon={faHome} color="orange"/>&nbsp;
                                         Home |
                                     </NavLink>
 
@@ -87,7 +87,7 @@ class Navbarr extends Component {
                                
                                 <li>
                                     <NavLink exact="true" activeclassname="active" to='/screens'>
-                                    <FontAwesomeIcon icon={faPersonThroughWindow} color="orange"/>
+                                    <FontAwesomeIcon icon={faPersonThroughWindow} color="orange"/>&nbsp;
                                         Window Screens |
                                     </NavLink>
                                 </li>
