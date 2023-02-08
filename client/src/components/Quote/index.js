@@ -57,6 +57,7 @@ import React, { useRef } from 'react';
         
     
    </div>
+   <Loader type="ball-rotate" />
   </>
   )
 }
