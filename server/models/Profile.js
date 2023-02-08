@@ -1,6 +1,7 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
 const Order = require('./Order');
+const Image = require ('./Image');
 const profileSchema = new Schema({
   firstName: {
     type: String,
@@ -25,8 +26,8 @@ const profileSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  orders: [Order.schema]
-  
+  orders: [Order.schema],
+  image: [Image.schema]
 
 });
 
