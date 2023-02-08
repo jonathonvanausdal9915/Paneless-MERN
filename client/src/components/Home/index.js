@@ -10,6 +10,7 @@ import image7 from '../../assets/images/after-1.png'
 import image8 from '../../assets/images/after-2.png'
 import image9 from '../../assets/images/before-1.png'
 import image10 from '../../assets/images/before-2.png'
+import {NavLink,} from 'react-router-dom'
 import {GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import './index.scss'
 import { faMapLocationDot,faLocationDot,faContactCard,faPhone,faStar} from '@fortawesome/free-solid-svg-icons'
@@ -57,7 +58,7 @@ return (
             </div>
             <div className="about-box1">
                 <div className="about-box2">
-                    <h2 className="abouth2"><u>ABOUT US</u></h2>
+                    <h2 className="abouth2">ABOUT US</h2>
                     <br />
                     <p className="ptag2">What started as three teenagers washing windows to save money for church missions
                     has evolved into a passion for cleaning windows and keeping happy customers!
@@ -136,7 +137,10 @@ return (
         <br />
         <br />
         <div className="button-margin">
+          <NavLink exact="true" activeclassname="quotebtn" to='/quote'>
+                                        
             <button className="request-btn1">Request Quote</button>
+                                     </NavLink>
         </div>
         <br />
        

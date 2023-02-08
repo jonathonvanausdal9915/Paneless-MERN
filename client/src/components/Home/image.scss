@@ -17,7 +17,7 @@
 .textBox {
     position:absolute;
     top:28%;
-    height:25vh;
+    height:30vh;
     width:35vw;
     left:32%;
     color:white;
@@ -73,29 +73,16 @@
   height:50vh;
   width:100%;
 }
-.contactbtn {
-  height:5vh;
-  width:12vw;
-  border-radius:15px;
- 
-  color:#0074B7;
-  border-color:orange;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size:15px;
-  transition: 0.3s ease-in-out;
-  font-weight:900;
-  
-}
+
 
 .quotebtn {
   height:5vh;
   width:12vw;
   
-  border-radius:15px;
+  border-radius:10px;
   background-color:transparent;
   color:white;
   background-color: #0074B7;
-  border-color:white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:15px;
   
@@ -130,10 +117,7 @@
     font-size: 1.2vw;
     width:12vw;
   }
-  .contactbtn{
-    font-size: 1.2vw;
-    width:12vw;
-  }
+
  
 
 }
@@ -142,12 +126,8 @@
     font-size: 1.2vw;
     width:15vw;
   }
-  .contactbtn{
-    font-size: 1.2vw;
-    width:15vw;
-  }
-
 }
+
 
 #testingbtn {
   background-color:orange;
@@ -161,5 +141,6 @@
 .testing13{
   font-size:2.8vw;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
+  font-stretch: ultra-condensed;
+  display:inline-block;
 }

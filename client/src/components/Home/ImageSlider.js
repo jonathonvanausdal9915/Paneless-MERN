@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './image.scss'
+import {NavLink,} from 'react-router-dom'
 
 const ImageSlider = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -85,12 +86,15 @@ const goToSlide = slideIndex => {
         <div className="textBox" >
         
             <div className="paragraph">
-                <p className="testing13"><b>Making your window cleaning experience as "PANELESS" as possible.</b></p>
+                <h2 className="testing13"><b>Making your window cleaning experience as "PANELESS" as possible.</b></h2>
             <br />
             </div>
             <div className="btn-alignment">
-                <button className='quotebtn' >Request Quote</button>
-                <button className='contactbtn'id="testingbtn">Contact Us</button>
+            <NavLink exact="true" activeclassname="quotebtn" to='/quote'>
+                                        
+                                       <button className="quotebtn">Contact Us </button>
+                                    </NavLink>
+                
             </div>
            <br />
            

@@ -15,6 +15,7 @@ import {
 import { setContext } from '@apollo/client/link/context';
 import { StoreProvider } from './utils/GlobalState';
 import Profile from './components/Profile';
+import Quote from './components/Quote';
 
 
 // Construct our main GraphQL API endpoint
@@ -51,6 +52,7 @@ function App() {
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="login" element={<Login />} />
+        <Route path="quote" element={<Quote />} />
         <Route path="screens" element={<WindowScreens  />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="home" element={<Home />} />
