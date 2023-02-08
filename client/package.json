@@ -27,7 +27,8 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "sass": "^1.56.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@emailjs/browser": "^3.10.0"
   },
   "scripts": {
     "start": "react-scripts start",

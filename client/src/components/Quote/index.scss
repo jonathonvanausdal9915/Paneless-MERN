@@ -5,3 +5,58 @@
     background-size:cover;
     text-align: center;
 }
+.email-form {
+    height:35vh;
+    width:50vh;
+    border-style:solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    background-color:#1b2430;
+    content: ' ';
+    opacity: 0.93;
+    animation: fadeIn 4s;
+    display:flex;
+    flex-direction:column; 
+    gap:5%;
+    border-radius: 25px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
+
+}
+.layout-form {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.address-quote {
+    width:365px;
+}
+.send {
+    width:12rem;
+    margin:auto;
+    height:3vh;
+    background-color:#0074B7;
+    color:white;
+
+}
+.contact-us {
+    color:white;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size:50px;
+
+}
