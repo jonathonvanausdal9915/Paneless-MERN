@@ -42,7 +42,11 @@ import React, { useRef } from 'react';
             </div>
 
             <div>
-                <input className="address-quote" placeholder="Address"></input>
+                <input className="address-quote"type="text" placeholder="Address"></input>
+        
+            </div>
+            <div>
+                <input className="message"type="text" placeholder="Message"></input>
         
             </div>
 
