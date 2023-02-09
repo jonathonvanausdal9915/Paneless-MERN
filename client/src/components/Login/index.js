@@ -50,10 +50,11 @@ const Login = () => {
         <u>Register</u>
         </NavLink></p>
            
-            <FontAwesomeIcon className="icon-user" icon={faUser} size='5x'color="orange"/>
+           
            
             
             <form className="form-1">
+               <FontAwesomeIcon className="icon-user" icon={faUser} size='5x'color="orange"/>
             
               <input className="username"  onChange={handleChange} required={true} placeholder="Email" name="email" value={formState.email} type='text'></input>
               

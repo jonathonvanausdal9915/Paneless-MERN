@@ -50,7 +50,7 @@ const SignUp = () => {
         <p className="ptag">Already Have an account? <NavLink className="login-link1" exact="true" to='/login'>
           <u>Login</u>
         </NavLink></p>
-        <br />
+      
         <FontAwesomeIcon className="signup-icon" icon={faUserPlus} size='5x' color="orange" />
         <form onSubmit={handleFormSubmit} className="form">
 
