@@ -153,10 +153,20 @@ return (
            
         <Map /> 
        
-        <h2 className="h2">Our Service Areas</h2>
-        <br />
-        <section className="service-area">
+       
+        
+
+        <div className="map-box">
+            <br />
            
+            <h2 className="h2">Our service areas</h2>
+            <br />
+            <br />
+            <br />
+            
+            <section className="service-area">
+            
+      
             <div className="area-1">  <ul className="no-bullets">
                 <li><FontAwesomeIcon icon={faMapLocationDot} color="#0074B7"/> &nbsp;American Fork</li>
                 <li><FontAwesomeIcon icon={faMapLocationDot} color="#0074B7"/> &nbsp;Lehi</li>
@@ -176,7 +186,8 @@ return (
             </ul>
 
            </div>
-        </section>
+        </section> 
+        </div>
         </div>
        
     <br />

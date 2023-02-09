@@ -8,16 +8,23 @@ const Layout = () => {
     return (<>
             <div className="App">
                 <Navbarr/>
+                
                 <div className='page'>
+                    
                     <span className='tags top-tags'/>
+                    
                     <Outlet/>
+                   
+                  
                     <span className='tags bottom-tags'/>
+                    
                     <br/>
-
+                    <Footer/>
+                   
                 </div>
-
+               
             </div>
-            <Footer/>
+           
         </>
     )
 }

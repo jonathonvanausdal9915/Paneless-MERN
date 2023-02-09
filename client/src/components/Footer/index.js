@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faInstagram } from "@fortawesome/free-brands-svg-icons"
 const Footer = () => {
     return ( <>
+    <footer>   
     <div className="footer">
     <img className="logo-1" src={logo} alt="logo" />
     <span className="span-1">
@@ -32,6 +33,8 @@ const Footer = () => {
       
     </span>
     </div>
+    </footer>
+ 
     </>
     )
 }

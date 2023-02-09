@@ -7,6 +7,7 @@
 .map-section {
     width:80%;
     border:solid;
+    height:50vh;
  
    
     margin:auto;
@@ -20,36 +21,41 @@
 
 
 .service-area {
-    height:10vh;
-    width:25%;
+    height:400px;
+    width:80%;
     font-size:15px;
-   display:flex;
-   flex-direction: row;
-   position:absolute;
-   top:300vh;
-   left:55vw;
-   gap:1vw;
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+  
+    gap:1vw;
     
 }
+
 .area-1{
-    width:20vw;
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+  
     
-    height:24vh;
   
 }
 .area-2{
-    width:20vw;
-    
-    height:24vh;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    height:100%;
+   
   
 }
+.map-box {
+    width:45%;
+   
+    
+}
 .h2 {
-    position:absolute;
-    top:290vh;
-    left:55vw;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height:5vh;
-    font-size:35px;
+    text-align:center;
 }
 ul.no-bullets {
     list-style-type: none; /* Remove bullets */
@@ -58,7 +64,7 @@ ul.no-bullets {
   }
 
   .whats-next {
-    height:20vh;
+    height:15rem;
     width:100%;
    
     margin:auto;
@@ -110,6 +116,14 @@ ul.no-bullets {
 
 }
 @media screen and (max-width: 1000px) {
+    .icon-1x {
+        height:8vh;
+        width:8vw;
+        padding-bottom: 2vh;
+    }
+  
+  }
+  @media screen and (max-height: 850px) {
     .icon-1x {
         height:8vh;
         width:8vw;
@@ -186,6 +200,20 @@ ul.no-bullets {
   
  
   }
+  @media screen and (max-height: 850px) {
+    .ptag2 {
+        font-size:15px;
+    }
+    .ptag3 {
+        font-size:15px;
+    }
+    .stary {
+        font-size:20px;
+       
+    }
+  
+ 
+  }
   @media screen and (max-width: 600px) {
     .ptag2 {
         font-size:10px;
@@ -208,6 +236,30 @@ ul.no-bullets {
     }
     .request-btn1{
         font-size:8px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .ptag2 {
+        font-size:5px;
+    }
+    .ptag3 {
+        font-size:5px;
+    }
+    .stary {
+        font-size:5px;
+       
+    }
+    .box-1 {
+        font-size:5px;
+    }
+    .box-2 {
+        font-size:5px;
+    }
+    .box-3 {
+        font-size:5px;
+    }
+    .request-btn1{
+        font-size:5px;
     }
   }
 .about-box {
