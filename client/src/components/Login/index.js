@@ -33,7 +33,7 @@ const Login = () => {
           password: '',
         });
       };
-
+      const disabledButton = !formState.email || formState.password.length < 6
     const handleChange = (event) => {
         const { name, value } = event.target;
     
@@ -59,7 +59,7 @@ const Login = () => {
               <input className="username"  onChange={handleChange} required={true} placeholder="Email" name="email" value={formState.email} type='text'></input>
               
               <input className="password" onChange={handleChange}  required={true} value={formState.password} name="password" placeholder="Pasword"type='password' ></input>
-              <button    onClick={handleFormSubmit} className="loginbtn">Login</button>
+              <button  disabled={disabledButton}  onClick={handleFormSubmit} className="loginbtn">Login</button>
               {error ? (
           <div>
             <p className="error-text">The provided credentials are incorrect</p>

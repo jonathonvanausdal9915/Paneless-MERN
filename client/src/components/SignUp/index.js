@@ -15,7 +15,7 @@ const SignUp = () => {
     email: '',
     password: '',
   });
-  const [addProfile, data] = useMutation(ADD_PROFILE);
+  const [addProfile, { error, data }] = useMutation(ADD_PROFILE);
 
 
 
@@ -31,6 +31,7 @@ const SignUp = () => {
       Auth.login(data.addProfile.token);
     } catch (e) {
       console.error(e);
+      
     }
   };
 
@@ -43,6 +44,7 @@ const SignUp = () => {
       [name]: value,
     });
   };
+  const disabledButton = !formState.email || formState.password.length < 6 && formState.firstName && formState.lastName 
   return (<>
     <div className="login-box">
       <div className="signup">
@@ -64,8 +66,12 @@ const SignUp = () => {
           <input className="password" name="password" value={formState.password} onChange={handleChange} required={true} placeholder="Pasword" type='password' ></input>
 
 
-          <button className="loginbtn" name="login" type="submit" onClick={handleFormSubmit}>Sign Up</button>
-
+          <button  disabled={disabledButton} className="loginbtn" name="login" type="submit" onClick={handleFormSubmit}>Sign Up</button>
+          {error ? (
+          <div>
+            <p className="error-text">Something went wrong! Please try again.</p>
+          </div>
+        ) : null}
         </form>
 
       </div>

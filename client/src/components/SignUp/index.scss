@@ -1,5 +1,5 @@
 .login-box {
-    height:80vh;
+    height:90vh;
     width:100%;
     border-style:solid;
     background-image: url('../../assets/images/aboutus.png');
@@ -8,8 +8,8 @@
     
 }
 .signup {
-    height:65vh;
-    width:35%;
+    height:45rem;
+    width:30rem;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -20,6 +20,9 @@
     content: ' ';
     opacity: 0.93;
     animation: fadeIn 4s;
+    border-radius:50px;
+   
+   
    
 }
 .form {
@@ -57,9 +60,7 @@
 .password {
     font-size:25px;
 }
-.password-confirm {
-    font-size: 25px;
-}
+
 .loginbtn{
     font-size:28px;
     background-color:orange;
@@ -78,6 +79,79 @@
 }
 @media screen and (max-width: 1000px) {
     .signup-icon{
-       font-size:50px;
+        font-size:45px;
+     }
+     .loginh2 {
+         font-size:25px;
+     }
+     .signup {
+         height:25rem;
+         width:20rem;
+     }
+     .form {
+         display:flex;
+         flex-direction: column;
+         height:8rem;
+         width:15rem;
+         position:fixed;
+         top: 35%;
+         left:50%;
+         transform: translate(-50%, -50%);
+         
+     }
+     .loginbtn {
+         font-size:15px;
+     }
+     .firstname {
+         font-size:15px;
+     }
+     .emailaddress {
+         font-size:15px;
+     }
+     .lastname {
+         font-size:15px;
+     }
+     .password {
+         font-size:15px;
+     }
+     
     }
+   @media screen and (max-height: 900px) {
+    .signup-icon{
+       font-size:45px;
+    }
+    .loginh2 {
+        font-size:25px;
+    }
+    .signup {
+        height:25rem;
+        width:20rem;
+    }
+    .form {
+        display:flex;
+        flex-direction: column;
+        height:8rem;
+        width:15rem;
+        position:fixed;
+        top: 35%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .loginbtn {
+        font-size:15px;
+    }
+    .firstname {
+        font-size:15px;
+    }
+    .emailaddress {
+        font-size:15px;
+    }
+    .lastname {
+        font-size:15px;
+    }
+    .password {
+        font-size:15px;
+    }
+    
    }
