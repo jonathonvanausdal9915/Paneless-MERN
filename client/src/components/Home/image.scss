@@ -1,9 +1,11 @@
  .logoBox {
     position: absolute;
-    top: -2%;
+    top: 10%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
     height:22vh;
     width:22vw;
-    left:40%;
     background-image: url('../../assets/images/transparent.png');
     background-position: center;
     background-size: cover;
@@ -16,10 +18,13 @@
 
 .textBox {
     position:absolute;
-    top:28%;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
     height:30vh;
     width:35vw;
-    left:32%;
+  
     color:white;
     font-size:42px;
     text-align: center;
