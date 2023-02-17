@@ -1,13 +1,13 @@
 .map-container {
     width: 55%;
-    height: 50vh;
+    max-height: 30rem;
     border-style:solid;
     border-radius:5px;
 }
 .map-section {
-    width:80%;
+    max-width:80rem;
     border:solid;
-    height:50vh;
+    max-height:30rem;
  
    
     margin:auto;
@@ -244,6 +244,9 @@ ul.no-bullets {
     .service-area {
         font-size:10px;
     }
+    .abouth2 {
+        font-size:15px;
+    }
   
   }
   @media screen and (max-width: 500px) {
@@ -269,6 +272,11 @@ ul.no-bullets {
     .request-btn1{
         font-size:5px;
     }
+    .abouth2 {
+        font-size:15px;
+    }
+    
+  
   }
 .about-box {
     height:100%;
