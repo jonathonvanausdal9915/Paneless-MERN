@@ -84,7 +84,7 @@ return (
                         <p className="ptag3">"Nick and the whole crew of Paneless Windows were awesome, friendly, efficient, thorough, and professional.
                          Highly recommend to all. Do yourself a favor and let them put the sparkle back in your windows."
                          </p>
-                         <p>-Paul Graham</p>
+                         <p className="ptag3">-Paul Graham</p>
                 </div>
             </div>
             <div className="review-box1">
