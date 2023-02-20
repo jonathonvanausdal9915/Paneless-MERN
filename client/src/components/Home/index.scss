@@ -275,13 +275,13 @@ ul.no-bullets {
        
     }
     .box-1 {
-        font-size:5px;
+        font-size:8px;
     }
     .box-2 {
-        font-size:5px;
+        font-size:8px;
     }
     .box-3 {
-        font-size:5px;
+        font-size:8px;
     }
     .request-btn1{
         font-size:5px;
@@ -289,18 +289,18 @@ ul.no-bullets {
     }
     .whats-next {
         height:25rem;
-        width:100%;
-       
+        width:50%;  
         margin:auto;
         display:flex;
         flex-direction: column;
         position:relative;
         top: 50%;
         left: 50%;
+        gap:1%;
        
 
         /* bring your own prefixes */
-        transform: translate(-16%, -5%);
+        transform: translate(-67%, -10%);
       }
     .abouth2 {
         font-size:15px;
