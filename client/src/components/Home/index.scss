@@ -285,8 +285,23 @@ ul.no-bullets {
     }
     .request-btn1{
         font-size:5px;
-        height:2vh;
+        height:2.5vh;
     }
+    .whats-next {
+        height:25rem;
+        width:100%;
+       
+        margin:auto;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        top: 50%;
+        left: 50%;
+       
+
+        /* bring your own prefixes */
+        transform: translate(-16%, -5%);
+      }
     .abouth2 {
         font-size:15px;
     }
