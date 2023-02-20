@@ -106,7 +106,7 @@ class Navbarr extends Component {
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="logout" exact="true" activeclassname="active" to='/login' onClick={() => Auth.logout()}>
+                                    <NavLink className="logout" exact="true" activeclassname="active" to='/home' onClick={() => Auth.logout()}>
                                   
                                         Logout&nbsp;
                                         <FontAwesomeIcon icon={faDoorOpen} color="orange"/>

@@ -18,7 +18,14 @@
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     
 }
-
+.ptag2 {
+    font-weight: 400;
+    
+   
+}
+.ptag3 {
+    font-weight: 400;
+}
 
 .service-area {
     height:400px;
@@ -122,16 +129,14 @@ ul.no-bullets {
         width:8vw;
         padding-bottom: 2vh;
     }
-  
+   .whats-h2 {
+    font-size:30px;
+   }
+    
   }
-  @media screen and (max-height: 850px) {
-    .icon-1x {
-        height:8vh;
-        width:8vw;
-        padding-bottom: 2vh;
-    }
+
+
   
-  }
 .request-btn1{
     width:15vw;
     height:4vh;
@@ -140,6 +145,7 @@ ul.no-bullets {
     font-size:16px;
     background-color:#0074B7;
     color:white;
+    box-shadow:0em 0em 1.0em #0074B7;
 
     
     
@@ -147,6 +153,7 @@ ul.no-bullets {
 .request-btn1:hover{
     background-color: #1b2430;
     color:white;
+    box-shadow:0em 0em 1.0em orange;
      
   transition: 0.3s ease-in-out;
 }
@@ -162,6 +169,7 @@ ul.no-bullets {
     padding-top:3vh;
     background-color: #1b2430;
     border-radius:50%;
+    box-shadow:0em 0em 1.0em #0074B7;
 }
 .icon-2{
     border-style:solid;
@@ -170,6 +178,7 @@ ul.no-bullets {
     padding-top:3vh;
     background-color: #1b2430;
     border-radius:50%;
+    box-shadow:0em 0em 1.0em #0074B7;
 }
 .icon-3{
     border-style:solid;
@@ -178,6 +187,7 @@ ul.no-bullets {
     padding-top:3vh;
     background-color: #1b2430;
     border-radius:50%;
+    box-shadow:0em 0em 1.0em #0074B7;
 }
 .about-us {
     height:50vh;
@@ -275,16 +285,48 @@ ul.no-bullets {
     }
     .request-btn1{
         font-size:5px;
+        height:2vh;
     }
     .abouth2 {
         font-size:15px;
     }
-    
+    @media screen and (max-width: 800px) {
+        .icon-1x {
+
+            height:8vh;
+            width:8vw;
+            padding-bottom: 2vh;
+        }
+        .icon-1 {
+
+            height:8vh;
+            padding-top:2px;
+            width:8vh;
+        }
+       .whats-h2 {
+
+        font-size:30px;
+       }
+       .icon-2 {
+
+        height:8vh;
+        padding-top:2px;
+        width:8vh;
+        }
+        .icon-3 {
+
+            height:8vh;
+            padding-top:2px;
+            width:8vh;
+        }
+       
+    }    
   
   }
 .about-box {
     height:100%;
     width:50%;
+    box-shadow:0em 0em 1.0em orange;
    
 }
 .about-box1 {
@@ -347,6 +389,7 @@ ul.no-bullets {
 .review-box {
     height:100%;
     width:50%;
+   
     
     
  
@@ -355,6 +398,7 @@ ul.no-bullets {
 .review-box1 {
     height:100%;
     width:50%;
+    box-shadow:0em 0em 1.0em orange;
     
 }
 .review-box2{
@@ -385,11 +429,13 @@ ul.no-bullets {
     border-radius:15px;
     margin:auto;
     background-color:#023B63;
+   
 }
 .featuredh2 {
     color:white;
     text-align: center;
     font-size:40px;
+    
     
 }
 .featured-projects {
@@ -398,6 +444,7 @@ ul.no-bullets {
     gap:5%;
     justify-content: center;
     padding-top:5%;
+    
 }
 .before-1 {
     height:15vh;

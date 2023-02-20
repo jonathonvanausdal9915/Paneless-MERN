@@ -94,7 +94,7 @@ return (
         < br />
         <br />
         <div className="featured" id="featured">
-            <h2 className="featuredh2">Featured Projects</h2>
+            <h2 className="featuredh2">Featured</h2>
             <div className="featured-projects">
                 
                 <div>

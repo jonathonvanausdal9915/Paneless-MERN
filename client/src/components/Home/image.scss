@@ -10,6 +10,7 @@
     background-position: center;
     background-size: cover;
     font-weight: 900;
+    
    
     animation: fadeIn 4s;
    
@@ -24,19 +25,15 @@
     transform: translate(-50%, -50%);
     height:30vh;
     width:35vw;
-  
     color:white;
     font-size:42px;
     text-align: center;
     font-family:monospace;
-    text-shadow: 1px 1px black;
     border-radius:15px;
     border-color:black;
-    border-style:solid;
     font-weight:900;
-    background-color:#1b2430;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    opacity: 0.9;
+  
+  
 }
 .paragraph {
   width:100%;
@@ -90,7 +87,7 @@
   background-color: #0074B7;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:15px;
-  
+  box-shadow:0em 0em 1.0em lightblue;
   
   transition: 0.3s ease-in-out;
   font-weight:900;
@@ -99,6 +96,7 @@
   background-color: white;
   color:#0074B7;
   border-color:#0074B7;
+  box-shadow:0em 0em 1.0em  #0074B7;
 }
 
 .btn-alignment {
@@ -148,4 +146,11 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-stretch: ultra-condensed;
   display:inline-block;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 131, 61) 0%, rgb(249, 183, 23) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:900;
+  font-style: italic;
+  text-shadow: 0em 0em 1.0em orange;
+  
 }
