@@ -2,14 +2,12 @@
     width: 55%;
     max-height: 30rem;
     border-style:solid;
-    border-radius:5px;
+    border-radius:15px;
 }
 .map-section {
     max-width:80rem;
     border:solid;
     max-height:30rem;
- 
-   
     margin:auto;
     border-radius:25px;
     display:flex;
@@ -90,7 +88,6 @@ ul.no-bullets {
 }
 .box-1 {
     width:33.33%;
- 
     height:100%;
     display:flex;
     flex-direction: column;
@@ -102,7 +99,6 @@ ul.no-bullets {
 }
 .box-2 {
     width:33.33%;
-    
     height:100%;
     display:flex;
     flex-direction: column;
@@ -113,7 +109,6 @@ ul.no-bullets {
 }
 .box-3 {
     width:33.33%;
-    
     height:100%;
     display:flex;
     flex-direction: column;

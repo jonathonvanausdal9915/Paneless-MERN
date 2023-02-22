@@ -31,6 +31,7 @@ const containerStyles = {
    
 };
 
+
 const Home = () => {
     const { isLoaded } = useLoadScript({googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     });
@@ -38,7 +39,7 @@ const Home = () => {
 if (!isLoaded) return <div>Loading...</div>
 
 function Map() {
-    return <GoogleMap zoom={10} center={{lat: 40.3769, lng: -111.7958}} mapContainerClassName='map-container'>
+    return <GoogleMap  zoom={10} center={{lat: 40.3769, lng: -111.7958}} mapContainerClassName='map-container'>
         <Marker position={{ lat:40.3769, lng: -111.7958}} />
     </GoogleMap>
 }
@@ -121,10 +122,10 @@ return (
         <br />
         <div className="whats-next">
             <div className="box-1">
-                <div className="icon-1"><i><FontAwesomeIcon  className="icon-1x" icon={faLocationDot} size="5x"color="#0074B7"/></i></div>
+                <div className="icon-1"><i><FontAwesomeIcon  className="icon-1x" icon={faLocationDot} size="6x"color="#0074B7"/></i></div>
                 <br />
               
-                Tell us about your windows, service address, and how to get in touch.</div>
+                Tell us about your windows, service address, and contact info.</div>
             <div className="box-2">
                 <div className="icon-2"><i><FontAwesomeIcon className="icon-1x" icon={faContactCard} size="5x" color="#0074B7"/></i></div>
                 <br />
