@@ -66,7 +66,7 @@ const dotStyles = {
     margin: '0 3px',
     cursor: "pointer",
     fontSize: '100px',
-    color:'#1b2430',
+    color:'black',
    
 };
 const goToSlide = slideIndex => {
