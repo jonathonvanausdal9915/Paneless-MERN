@@ -64,7 +64,6 @@ return (
             <div className="about-box1">
                 <div className="about-box2">
                     <h2 className="abouth2">ABOUT US</h2>
-                    <br />
                     <p className="ptag2">What started as three teenagers washing windows to save money for church missions
                     has evolved into a passion for cleaning windows and keeping happy customers!
                     </p>
@@ -120,7 +119,7 @@ return (
             </div>
         </div>
         <br />
-        <h2 className="whats-h2"><u>What's Next?</u></h2>
+        <h2 className="whats-h2"><b>What's Next?</b></h2>
         
         <br />
         <br />
@@ -129,15 +128,15 @@ return (
                 <div className="icon-1"><i><FontAwesomeIcon  className="icon-1x" icon={faLocationDot} size="6x"color="#0074B7"/></i></div>
                 <br />
               
-                Tell us about your windows, service address, and contact info.</div>
+                <p>Tell us about your windows, service address, and contact info.</p></div>
             <div className="box-2">
                 <div className="icon-2"><i><FontAwesomeIcon className="icon-1x" icon={faContactCard} size="5x" color="#0074B7"/></i></div>
                 <br />
-                We contact our professionals and find the best one for you.</div>
+                <p>We contact our professionals and find the best one for you.</p></div>
             <div className="box-3">
                 <div className="icon-3"><i><FontAwesomeIcon  className="icon-1x"icon={faPhone} size="5x"color="#0074B7"/></i></div>
                 <br />
-                One of our skilled pros will be in touch with you to get started.</div>
+               <p> One of our skilled pros will be in touch with you to get started.</p></div>
         </div>
         <br />
         <br />
@@ -150,6 +149,7 @@ return (
         <br />
        
         < hr className="hr" />
+        <br />
         <br />
        
        
