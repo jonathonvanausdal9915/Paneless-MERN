@@ -11,6 +11,9 @@ import image8 from '../../assets/images/after-2.png'
 import image9 from '../../assets/images/before-1.png'
 import image10 from '../../assets/images/before-2.png'
 import {NavLink,} from 'react-router-dom'
+import logo from '../../assets/images/transparent.png'
+import { faAddressBook,faEnvelope,faCalendar} from '@fortawesome/free-solid-svg-icons'
+import { faFacebook,faInstagram } from "@fortawesome/free-brands-svg-icons"
 import {GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import './index.scss'
 import { faMapLocationDot,faLocationDot,faContactCard,faPhone,faStar} from '@fortawesome/free-solid-svg-icons'
@@ -44,6 +47,7 @@ function Map() {
     </GoogleMap>
 }
 return (
+    
    <div>
         <br />
         <br />
@@ -193,7 +197,13 @@ return (
        
     <br />
     <br />
+    <br />
+    <br />
+  
     </div>
+    
+   
+   
 
 )
 }

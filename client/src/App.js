@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import { useState, useEffect } from 'react';
 import WindowScreens from './components/WindowScreens';
 import {
   ApolloClient,
@@ -41,6 +42,9 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
+
+
+
 
 function App() {
   return (
