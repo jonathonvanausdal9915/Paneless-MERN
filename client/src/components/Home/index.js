@@ -1,6 +1,6 @@
 
 import ImageSlider from './ImageSlider';
-import image1 from '../../assets/images/aboutus.jpeg'
+import image1 from '../../assets/images/paneless5.jpeg'
 import image2 from '../../assets/images/example5.png'
 import image3 from '../../assets/images/paneless1.jpeg'
 import image4 from '../../assets/images/paneless2.jpeg'
