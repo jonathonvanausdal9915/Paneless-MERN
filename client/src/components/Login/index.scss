@@ -16,13 +16,13 @@
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
-  
+    
     background-color:#1b2430;
     content: ' ';
     opacity: 0.93;
     animation: fadeIn 4s;
     border-radius:50px;
-    box-shadow:0em 0em 1.0em blue;
+    box-shadow:0em 0em 1.0em orange;
    
    
 }
@@ -64,9 +64,12 @@
 }
 .username {
     font-size:25px;
+    background-color:azure;
+   
 }
 .password {
     font-size:25px;
+    background-color:azure;
 }
 .loginbtn{
     font-size:28px;
@@ -111,6 +114,8 @@
 }
 .username {
     font-size:15px;
+  
+    
 }
 .password {
     font-size:15px;

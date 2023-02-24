@@ -5,6 +5,7 @@
 }
 .map-section {
     max-width:80rem;
+    color:grey;
     
     max-height:30rem;
     margin:auto;
@@ -17,12 +18,14 @@
 .ptag2 {
     font-weight: 400;
     margin:25px;
+    font-family:Arial, Helvetica, sans-serif;
     
    
 }
 .ptag3 {
     font-weight: 400;
     margin:25px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
@@ -63,7 +66,9 @@
     
 }
 .h2 {
+    color:black;
     text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 ul.no-bullets {
     list-style-type: none; /* Remove bullets */
@@ -86,7 +91,8 @@ ul.no-bullets {
 }
 .whats-h2 {
     text-align: center;
-    font-size:50px;
+    font-size:45px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .box-1 {
     width:33.33%;
@@ -97,6 +103,9 @@ ul.no-bullets {
     align-items: center;
     font-size:18px;
     font-weight:600;
+    color:rgb(87, 85, 85);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     
 
 }
@@ -109,6 +118,8 @@ ul.no-bullets {
     text-align: center;
     font-size:18px;
     font-weight:600;
+    color:rgb(87, 85, 85);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .box-3 {
     width:33.33%;
@@ -119,6 +130,9 @@ ul.no-bullets {
     text-align: center;
     font-size:18px;
     font-weight:600;
+    color:rgb(87, 85, 85);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
 }
 @media screen and (max-width: 1000px) {
@@ -354,7 +368,6 @@ ul.no-bullets {
 .about-box {
     height:100%;
     width:50%;
-    box-shadow:0em 0em 1.0em #0074B7;
    
 }
 .about-box1 {
@@ -367,7 +380,8 @@ ul.no-bullets {
 .image-5 {
     height:100%;
     width:100%;
-    border-radius:15px;
+    border-radius:10%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
    
 }
 .about-box2 {
@@ -395,7 +409,8 @@ ul.no-bullets {
 .image-6 {
     height:100%;
     width:100%;
-    border-radius:15px;
+    border-radius:10%;
+    
     
 }
 .reviews {
@@ -418,7 +433,7 @@ ul.no-bullets {
 .review-box1 {
     height:100%;
     width:50%;
-    box-shadow:0em 0em 1.0em #0074B7;
+   
     
 }
 .review-box2{
@@ -449,6 +464,7 @@ ul.no-bullets {
     color:white;
     text-align: center;
     font-size:40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
 }
@@ -463,6 +479,7 @@ ul.no-bullets {
 .before-1 {
     height:15vh;
     width:15vw;
+    
     
     border-radius:15px;
 }
@@ -487,6 +504,8 @@ ul.no-bullets {
 .before-after {
     text-align: center;
     color:white;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
