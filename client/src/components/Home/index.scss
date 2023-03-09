@@ -2,6 +2,7 @@
     width: 55%;
     max-height: 30rem;
     border-radius:15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .map-section {
     max-width:80rem;
@@ -20,6 +21,7 @@
     margin:25px;
     font-family:Arial, Helvetica, sans-serif;
     
+    
    
 }
 .ptag3 {
@@ -30,13 +32,17 @@
 
 
 .service-area {
-    height:400px;
+    height:300px;
     width:80%;
     font-size:15px;
     display:flex;
     flex:wrap;
     flex-direction:row;
     margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    position:relative;
+    bottom:65px;
+
   
     gap:1vw;
     
@@ -45,6 +51,8 @@
 .area-1{
     width:50%;
     height:100%;
+    position:relative;
+    top:25%;
     display:flex;
     justify-content: center;
   
@@ -54,6 +62,8 @@
 .area-2{
     width:50%;
     display:flex;
+    position:relative;
+    top:25%;
     justify-content: center;
     height:100%;
    
@@ -66,6 +76,7 @@
     
 }
 .h2 {
+    
     color:black;
     text-align:center;
     font-family:Arial, Helvetica, sans-serif;
@@ -78,7 +89,9 @@ ul.no-bullets {
 
   .whats-next {
     height:15rem;
-    width:100%;
+    width:80%;
+    gap:13%;
+    
    
     margin:auto;
     display:flex;
@@ -95,7 +108,7 @@ ul.no-bullets {
     font-family:Arial, Helvetica, sans-serif;
 }
 .box-1 {
-    width:33.33%;
+    width:25%;
     height:100%;
     display:flex;
     flex-direction: column;
@@ -105,12 +118,13 @@ ul.no-bullets {
     font-weight:600;
     color:rgb(87, 85, 85);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 
     
 
 }
 .box-2 {
-    width:33.33%;
+    width:25%;
     height:100%;
     display:flex;
     flex-direction: column;
@@ -120,9 +134,10 @@ ul.no-bullets {
     font-weight:600;
     color:rgb(87, 85, 85);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .box-3 {
-    width:33.33%;
+    width:25%;
     height:100%;
     display:flex;
     flex-direction: column;
@@ -132,21 +147,158 @@ ul.no-bullets {
     font-weight:600;
     color:rgb(87, 85, 85);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 
 
 }
-@media screen and (max-width: 1000px) {
-    .icon-1x {
-        height:8vh;
-        width:8vw;
-        padding-bottom: 2vh;
-    }
-   .whats-h2 {
-    font-size:30px;
-   }
+.about-box {
+    height:100%;
+    width:50%;
+   
+   
+   
+}
+.about-box1 {
+    height:100%;
+    width:50%;
     
-  }
+    
+ 
+   
+}
+.image-5 {
+    height:100%;
+    width:100%;
+    border-radius:10%;
+    
+   
+}
+.about-box2 {
+    height:50%;
+    width:80%;
+    border-style:outset;
+    margin:auto;
+    position:relative;
+    top:25%;
+    border-radius:25px;
+    background-color:white;
+    color:#0074B7;
+    font-size:20px;
+    text-align: start;
+    font-weight:400;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+   
 
+}
+.abouth2 {
+    color:#0074B7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.image-6 {
+    height:100%;
+    width:100%;
+    border-radius:10%;
+    
+    
+    
+}
+.reviews {
+    height:50vh;
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    
+}
+.review-box {
+    height:100%;
+    width:50%;
+   
+    
+    
+ 
+   
+}
+.review-box1 {
+    height:100%;
+    width:50%;
+   
+    
+}
+.review-box2{
+    height:50%;
+    width:80%;
+    border-style:solid;
+    margin:auto;
+    position:relative;
+    top:25%;
+    border-radius:25px;
+    background-color:white;
+    color:#0074B7;
+    font-size:20px;
+    text-align: center;
+    border-style:outset;
+    font-weight:400;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.featured {
+    height:40vh;
+    width:100%;
+    border-radius:15px;
+    margin:auto;
+    background-color:#023B63;
+   
+}
+.featuredh2 {
+    color:white;
+    text-align: center;
+    font-size:40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.featured-projects {
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+    justify-content: center;
+    padding-top:5%;
+    
+}
+.before-1 {
+    height:15vh;
+    width:15vw;
+    
+    
+    border-radius:15px;
+}
+.after-1 {
+    height:15vh;
+    width:15vw;
+    border-radius:15px;
+   
+}
+.before-2 {
+    height:15vh;
+    width:15vw;
+    border-radius:15px;
+  
+}
+.after-2 {
+    height:15vh;
+    width:15vw;
+    border-radius:15px;
+    
+}
+.before-after {
+    text-align: center;
+    color:white;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
   
 .request-btn1{
@@ -207,8 +359,22 @@ ul.no-bullets {
     margin:auto;
     display:flex;
     flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    
  
 }
+
+@media screen and (max-width: 1000px) {
+    .icon-1x {
+        height:8vh;
+        width:8vw;
+        padding-bottom: 2vh;
+    }
+   
+    
+  }
+
+
 @media screen and (max-width: 1085px) {
     .ptag2 {
         font-size:12px;
@@ -220,8 +386,7 @@ ul.no-bullets {
         font-size:20px;
        
     }
-  
- 
+
   }
   @media screen and (max-height: 850px) {
     .ptag2 {
@@ -285,6 +450,69 @@ ul.no-bullets {
     .ptag2 {
         font-size:5px;
     }
+    .about-box {
+        height:50%;
+        width:80%;
+        position:relative;
+        top:5%;
+        align-self: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        border-radius:25%;
+        
+    }
+    .image-5 {
+        height:100%;
+        width:100%;
+        border-radius:10%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+       
+    }
+    .about-us {
+        display:flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        
+        
+    }
+    .about-box1 {
+        align-self: center;
+        width:80%;
+        
+       
+        
+    }
+    .about-box2 {
+        height:60%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    .review-box1 {
+        height:50%;
+        width:80%;
+        position:relative;
+        bottom:25px;
+        align-self: center;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        border-radius:25px;
+    }
+    .review-box2{
+        height:60%;
+        position:relative;
+        top:10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    .reviews {
+        display:flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        
+        
+    }
+    .review-box {
+        width:80%;
+        align-self: center;
+    }
+    
+    
     .ptag3 {
         font-size:5px;
     }
@@ -294,19 +522,34 @@ ul.no-bullets {
     }
     .box-1 {
         p {
-            font-size:8px;
+            font-size:10px;
+            
         }
       
     }
     .box-2 {
         p {
-            font-size:8px;
+            font-size:10px;
+           
         }
     }
     .box-3 {
         p {
-            font-size:8px;
+            font-size:10px;
+          
         }
+    }
+    .icon-1x {
+
+        height:8vh;
+        width:8vw;
+        padding-bottom: 2vh;
+    }
+    .icon-1 {
+
+        height:8vh;
+        padding-top:2px;
+        width:8vh;
     }
     
     .request-btn1{
@@ -315,22 +558,32 @@ ul.no-bullets {
         margin:50px
     }
     .whats-next {
-        height:25rem;
+        height:35rem;
         width:50%;  
         margin:auto;
         display:flex;
         flex-direction: column;
+        align-items: center;
         position:relative;
-        top: 50%;
-        left: 50%;
-        gap:1%;
+        left:32.5%;
+        top:5rem;
+        font-size:25px;
+        
+     
+        gap:5%;
        
 
         /* bring your own prefixes */
         transform: translate(-67%, -10%);
       }
+      .service-area {
+        font-size:7px;
+    }
     .abouth2 {
-        font-size:15px;
+        font-size:10px;
+    }
+    .h2 {
+        font-size:20px;
     }
     @media screen and (max-width: 850px) {
         .icon-1x {
@@ -345,10 +598,6 @@ ul.no-bullets {
             padding-top:2px;
             width:8vh;
         }
-       .whats-h2 {
-
-        font-size:30px;
-       }
        .icon-2 {
 
         height:8vh;
@@ -362,150 +611,7 @@ ul.no-bullets {
             width:8vh;
         }
        
-    }    
+    }  
+   
   
   }
-.about-box {
-    height:100%;
-    width:50%;
-   
-}
-.about-box1 {
-    height:100%;
-    width:50%;
-    
- 
-   
-}
-.image-5 {
-    height:100%;
-    width:100%;
-    border-radius:10%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-   
-}
-.about-box2 {
-    height:50%;
-    width:80%;
-    border-style:outset;
-    margin:auto;
-    position:relative;
-    top:25%;
-    border-radius:15px;
-    background-color:white;
-    color:#0074B7;
-    font-size:20px;
-    text-align: start;
-    font-weight:400;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-   
-
-}
-.abouth2 {
-    color:#0074B7;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-.image-6 {
-    height:100%;
-    width:100%;
-    border-radius:10%;
-    
-    
-}
-.reviews {
-    height:50vh;
-    width:80%;
-    margin:auto;
-    display:flex;
-    flex-direction: row;
- 
-}
-.review-box {
-    height:100%;
-    width:50%;
-   
-    
-    
- 
-   
-}
-.review-box1 {
-    height:100%;
-    width:50%;
-   
-    
-}
-.review-box2{
-    height:50%;
-    width:80%;
-    border-style:solid;
-    margin:auto;
-    position:relative;
-    top:25%;
-    border-radius:15px;
-    background-color:white;
-    color:#0074B7;
-    font-size:20px;
-    text-align: center;
-    border-style:outset;
-    font-weight:400;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-.featured {
-    height:40vh;
-    width:100%;
-    border-radius:15px;
-    margin:auto;
-    background-color:#023B63;
-   
-}
-.featuredh2 {
-    color:white;
-    text-align: center;
-    font-size:40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-    
-}
-.featured-projects {
-    display:flex;
-    flex-direction: row;
-    gap:5%;
-    justify-content: center;
-    padding-top:5%;
-    
-}
-.before-1 {
-    height:15vh;
-    width:15vw;
-    
-    
-    border-radius:15px;
-}
-.after-1 {
-    height:15vh;
-    width:15vw;
-    border-radius:15px;
-   
-}
-.before-2 {
-    height:15vh;
-    width:15vw;
-    border-radius:15px;
-  
-}
-.after-2 {
-    height:15vh;
-    width:15vw;
-    border-radius:15px;
-    
-}
-.before-after {
-    text-align: center;
-    color:white;
-    font-size:25px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-

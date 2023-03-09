@@ -116,20 +116,18 @@
 
   
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .quotebtn{
     font-size: 1.2vw;
-    width:12vw;
+    width:150px;
   }
-
- 
-
 }
+ 
 @media screen and (max-width: 500px) {
   .quotebtn{
     font-size: 1.2vw;
-    width:15vw;
-    height:2vh;
+    width:100px;
+    height:25px;
   }
   
 }

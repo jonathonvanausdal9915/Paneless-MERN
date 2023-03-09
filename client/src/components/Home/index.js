@@ -27,9 +27,11 @@ const slides = [
 ];
 const containerStyles = {
     width: '100%',
-    height: '80vh',
+    height: '90vh',
     margin:'auto',
     paddingBottom:'25px',
+    
+   
 
    
 };
@@ -87,8 +89,10 @@ return (
 
                         <p className="ptag3">"Nick and the whole crew of Paneless Windows were awesome, friendly, efficient, thorough, and professional.
                          Highly recommend to all. Do yourself a favor and let them put the sparkle back in your windows."
+                         <br />
+                         -Paul Graham
                          </p>
-                         <p className="ptag3">-Paul Graham</p>
+                         
                 </div>
             </div>
             <div className="review-box1">
