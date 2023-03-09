@@ -80,6 +80,7 @@
     color:black;
     text-align:center;
     font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
 }
 ul.no-bullets {
     list-style-type: none; /* Remove bullets */
@@ -154,13 +155,16 @@ ul.no-bullets {
 .about-box {
     height:100%;
     width:50%;
+    
    
    
    
 }
 .about-box1 {
+
     height:100%;
     width:50%;
+    
     
     
  
@@ -169,7 +173,8 @@ ul.no-bullets {
 .image-5 {
     height:100%;
     width:100%;
-    border-radius:10%;
+    border-radius:10px;
+    
     
    
 }
@@ -180,25 +185,32 @@ ul.no-bullets {
     position:relative;
     top:25%;
     border-radius:25px;
-    background-color:white;
-    color:#0074B7;
+    
+    background-color:#0074B7;
+    color:white;
     font-size:20px;
     text-align: start;
+    
     font-weight:400;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
    
 
 }
 .abouth2 {
-    color:#0074B7;
+    color:orange;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-weight:900;
+    
+    
     
 }
 .image-6 {
     height:100%;
     width:100%;
-    border-radius:10%;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
     
     
     
@@ -209,12 +221,16 @@ ul.no-bullets {
     margin:auto;
     display:flex;
     flex-direction: row;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius:100rem;
+    background-color:#0074B7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     
 }
 .review-box {
     height:100%;
     width:50%;
+    
+    
    
     
     
@@ -226,6 +242,9 @@ ul.no-bullets {
     width:50%;
    
     
+    
+   
+    
 }
 .review-box2{
     height:50%;
@@ -234,12 +253,12 @@ ul.no-bullets {
     position:relative;
     top:25%;
     border-radius:25px;
-    background-color:white;
-    color:#0074B7;
+    color:white;
+    background-color:#0074B7;
     font-size:20px;
     text-align: center;
     font-weight:400;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   
 }
 .featured {
     height:40vh;
@@ -356,7 +375,9 @@ ul.no-bullets {
     margin:auto;
     display:flex;
     flex-direction: row;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius:50rem;
+    background-color:#0074B7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     
  
 }
@@ -467,6 +488,8 @@ ul.no-bullets {
     .about-us {
         display:flex;
         flex-direction: column;
+        background-color: white;
+        border-radius:20px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
         
         
@@ -476,12 +499,15 @@ ul.no-bullets {
         align-self: center;
         width:80%;
         
+        
        
         
     }
     .about-box2 {
         height:60%;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        background-color: white;
+        color:#0074B7;
     }
     .review-box1 {
         height:50%;
@@ -491,10 +517,13 @@ ul.no-bullets {
         align-self: center;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
         border-radius:25px;
+        
     }
     .review-box2{
         height:60%;
         position:relative;
+        background-color: white;
+        color:#0074B7;
         top:10px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     }
@@ -502,6 +531,8 @@ ul.no-bullets {
         display:flex;
         flex-direction: column;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        background-color: white;
+        border-radius:25px;
         
         
     }
