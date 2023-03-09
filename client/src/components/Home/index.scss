@@ -176,7 +176,6 @@ ul.no-bullets {
 .about-box2 {
     height:50%;
     width:80%;
-    border-style:outset;
     margin:auto;
     position:relative;
     top:25%;
@@ -186,7 +185,7 @@ ul.no-bullets {
     font-size:20px;
     text-align: start;
     font-weight:400;
-   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
    
 
 }
@@ -231,7 +230,6 @@ ul.no-bullets {
 .review-box2{
     height:50%;
     width:80%;
-    border-style:solid;
     margin:auto;
     position:relative;
     top:25%;
@@ -240,9 +238,8 @@ ul.no-bullets {
     color:#0074B7;
     font-size:20px;
     text-align: center;
-    border-style:outset;
     font-weight:400;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .featured {
     height:40vh;
@@ -471,6 +468,7 @@ ul.no-bullets {
         display:flex;
         flex-direction: column;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        
         
         
     }
